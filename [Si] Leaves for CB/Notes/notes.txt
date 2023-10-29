@@ -1,0 +1,13 @@
+bigleaf maple
+oregon white oak
+douglas fir
+birchleaf mountain mahogany
+
++fruit trees?
+
+Fall 2023 SDV modding competition
+Signature round
+For now, just do oak and maple (and maybe fir as a spinning stick?)
+
+Much, much later:
+Get blackberry and salmonberry bush leaves only when the berries are available (set when date range)
