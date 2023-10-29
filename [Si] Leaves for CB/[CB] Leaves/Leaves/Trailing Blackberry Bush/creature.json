@@ -1,0 +1,24 @@
+[
+	{
+		"ID": 2,
+		"HasExtraImages": false,
+		"HasFunFact": true,
+		"HasScientificName": true,
+		"ScientificName": "Rubus Ursinus",
+"ImageOffsets":[
+			{
+				"X": 0,
+				"Y": 0
+			},
+			{
+				"X": 0,
+				"Y": 0
+			},
+			{
+				"X": 0,
+				"Y": 0
+			},
+		],
+		"ImageScales": [ 5, 5, 5 ],
+	},
+]

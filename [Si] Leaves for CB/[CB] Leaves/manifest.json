@@ -1,0 +1,12 @@
+{
+	"Name": "[CB] Leaves for Creaturebook",
+	"Author": "SiTheGreat",
+	"Version": "1.0.0",
+	"Description": "Collect leaves blown around the valley.",
+	"UniqueID": "SiTheGreat.CBLeaves",
+	"ContentPackFor":{ 
+		"UniqueID": "KediDili.Creaturebook",
+	},
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:18928" ]
+}

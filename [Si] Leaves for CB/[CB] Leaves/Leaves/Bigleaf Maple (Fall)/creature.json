@@ -1,0 +1,24 @@
+[
+	{
+		"ID": 0,
+		"HasExtraImages": false,
+		"HasFunFact": true,
+		"HasScientificName": true,
+		"ScientificName": "Acer Macrophyllum",
+"ImageOffsets":[
+			{
+				"X": -10,
+				"Y": 0
+			},
+			{
+				"X": 0,
+				"Y": 0
+			},
+			{
+				"X": 0,
+				"Y": 0
+			},
+		],
+		"ImageScales": [ 5, 5, 5 ],
+	},
+]

@@ -1,0 +1,24 @@
+[
+	{
+		"ID": 3,
+		"HasExtraImages": false,
+		"HasFunFact": true,
+		"HasScientificName": true,
+		"ScientificName": "Malus Domestica",
+"ImageOffsets":[
+			{
+				"X": 0,
+				"Y": 0
+			},
+			{
+				"X": 0,
+				"Y": 0
+			},
+			{
+				"X": 0,
+				"Y": 0
+			},
+		],
+		"ImageScales": [ 5, 5, 5 ],
+	},
+]

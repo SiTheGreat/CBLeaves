@@ -1,0 +1,164 @@
+{
+	"Changes":[
+
+
+		{
+			"LogName": "Fall leaves",
+			"Action": "EditMap",
+			"Target": "Maps/Woods",
+			"MapTiles":[
+				{
+	    		    "Position": {
+		    			"X": "10",
+			    		"Y": "10"
+					},
+    			    "Layer": "Back",
+	    			"SetProperties": {
+		    			"CustomCompanions": "Spawn 1 SiTheGreat.CCLeaves.Leaf_{{Random: 0, 1, 3, 4}}",
+			    		}
+				}
+			]
+		},
+
+		{
+			"LogName": "Fall leaves",
+			"Action": "EditMap",
+			"Target": "Maps/Forest",
+			"MapTiles":[
+				{
+	    		    "Position": {
+		    			"X": "10",
+			    		"Y": "10"
+					},
+    			    "Layer": "Back",
+	    			"SetProperties": {
+		    			"CustomCompanions": "Spawn 1 SiTheGreat.CCLeaves.Leaf_{{Random: 0, 1, 3, 4}}",
+			    		}
+				}
+			]
+		},
+
+		{
+			"LogName": "Fall leaves",
+			"Action": "EditMap",
+			"Target": "Maps/Mountain",
+			"MapTiles":[
+				{
+	    		    "Position": {
+		    			"X": "10",
+			    		"Y": "10"
+					},
+    			    "Layer": "Back",
+	    			"SetProperties": {
+		    			"CustomCompanions": "Spawn 1 SiTheGreat.CCLeaves.Leaf_{{Random: 0, 1, 3, 4}}",
+			    		}
+				}
+			]
+		},
+
+		{
+			"LogName": "Fall leaves",
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"MapTiles":[
+				{
+	    		    "Position": {
+		    			"X": "10",
+			    		"Y": "10"
+					},
+    			    "Layer": "Back",
+	    			"SetProperties": {
+		    			"CustomCompanions": "Spawn 1 SiTheGreat.CCLeaves.Leaf_{{Random: 0, 1, 3, 4}}",
+			    		}
+				}
+			]
+		},
+
+		{
+			"LogName": "Blackberry season",
+			"Action": "EditMap",
+			"Target": "Maps/Woods",
+			"When":{
+				"Day": "{{Range: 8, 11}}"	
+			},
+			"MapTiles":[
+				{
+	    		    "Position": {
+		    			"X": "9",
+			    		"Y": "9"
+					},
+    			    "Layer": "Back",
+	    			"SetProperties": {
+		    			"CustomCompanions": "Spawn 1 SiTheGreat.CCLeaves.Leaf_2",
+			    		}
+				}
+			]
+		},
+
+		{
+			"LogName": "Blackberry season",
+			"Action": "EditMap",
+			"Target": "Maps/Forest",
+			"When":{
+				"Day": "{{Range: 8, 11}}"	
+			},
+			"MapTiles":[
+				{
+	    		    "Position": {
+		    			"X": "9",
+			    		"Y": "9"
+					},
+    			    "Layer": "Back",
+	    			"SetProperties": {
+		    			"CustomCompanions": "Spawn 1 SiTheGreat.CCLeaves.Leaf_2",
+			    		}
+				}
+			]
+		},
+
+		{
+			"LogName": "Blackberry season",
+			"Action": "EditMap",
+			"Target": "Maps/Mountain",
+			"When":{
+				"Day": "{{Range: 8, 11}}"	
+			},
+			"MapTiles":[
+				{
+	    		    "Position": {
+		    			"X": "9",
+			    		"Y": "9"
+					},
+    			    "Layer": "Back",
+	    			"SetProperties": {
+		    			"CustomCompanions": "Spawn 1 SiTheGreat.CCLeaves.Leaf_2",
+			    		}
+				}
+			]
+		},
+
+		{
+			"LogName": "Blackberry season",
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			"When":{
+				"Day": "{{Range: 8, 11}}"	
+			},
+			"MapTiles":[
+				{
+	    		    "Position": {
+		    			"X": "9",
+			    		"Y": "9"
+					},
+    			    "Layer": "Back",
+	    			"SetProperties": {
+		    			"CustomCompanions": "Spawn 1 SiTheGreat.CCLeaves.Leaf_2",
+			    		}
+				}
+			]
+		},
+
+
+
+	]
+}

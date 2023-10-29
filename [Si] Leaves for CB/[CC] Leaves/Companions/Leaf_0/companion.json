@@ -1,0 +1,35 @@
+{
+	"Name": "Leaf_0",
+	"Type": "Flying",
+	"FrameSizeWidth": 16,
+	"FrameSizeHeight": 16,
+	"TravelSpeed": 1,
+	"IdleBehavior": "Wander",
+	"MaxDistanceBeforeTeleport": -1,
+	"MaxIdleDistance": -1,
+	
+	"EnableCharacterCollision": true,
+	"EnableSpawnAtDayStart": true,
+	"EnableEventAppearance": true,
+	
+	"UniformAnimation": {
+		"ManualFrames": [
+			{
+				"Frame": 0,
+				"Duration": 100
+			},
+			{
+				"Frame": 1,
+				"Duration": 100
+			},
+			{
+				"Frame": 2,
+				"Duration": 100
+			},
+			{
+				"Frame": 3,
+				"Duration": 100
+			}
+		]
+	}
+}

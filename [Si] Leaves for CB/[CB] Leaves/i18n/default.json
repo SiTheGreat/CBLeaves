@@ -1,0 +1,18 @@
+{
+	"Leaf_0_name": "Bigleaf Maple Tree (Fall)",
+	"Leaf_0_desc": "A falltime leaf from a Bigleaf Maple tree.",
+	"Leaf_1_name": "Oregon White Oak Tree (Fall)",
+	"Leaf_1_desc": "A falltime leaf from an Oregon White Oak tree.",
+	"Leaf_2_name": "Trailing Blackberry Bush",
+	"Leaf_2_desc": "A falltime leaf from a Trailing Blackberry bush.",
+	"Leaf_3_name": "Honeycrisp Apple Tree (Fall)",
+	"Leaf_3_desc": "A falltime leaf from a Honeycrisp Apple tree.",
+	"Leaf_4_name": "Pumpkin Leaf",
+	"Leaf_4_desc": "A falltime pumpkin leaf.",
+	
+	"Trees": "Trees",
+	"Fruit Trees": "Fruit Trees",
+	"Crop Leaves": "Crop Leaves",
+	"Bushes":"Bushes",
+
+}

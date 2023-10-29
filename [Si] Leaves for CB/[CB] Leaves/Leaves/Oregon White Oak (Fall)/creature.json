@@ -1,0 +1,24 @@
+[
+	{
+		"ID": 1,
+		"HasExtraImages": false,
+		"HasFunFact": true,
+		"HasScientificName": true,
+		"ScientificName": "Quercus Garryana",
+"ImageOffsets":[
+			{
+				"X": 0,
+				"Y": 0
+			},
+			{
+				"X": 0,
+				"Y": 0
+			},
+			{
+				"X": 0,
+				"Y": 0
+			},
+		],
+		"ImageScales": [ 5, 5, 5 ],
+	},
+]

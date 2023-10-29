@@ -1,0 +1,13 @@
+{
+	"Name": "[CC] Leaves for CB",
+	"Author": "SiTheGreat",
+	"Version": "1.0.0",
+	"Description": "CC Leaves",
+	"UniqueID": "SiTheGreat.CCLeaves",
+	"ContentPackFor":{ 
+		"UniqueID": "PeacefulEnd.CustomCompanions",
+		"MinimumVersion": "2.5.0"
+	},
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:18928" ]
+}

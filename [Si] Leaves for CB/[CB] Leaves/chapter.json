@@ -1,0 +1,64 @@
+[
+	{
+		"Title": "Leaves",
+		"Folder": "Leaves",
+		"CreatureAmount": 5,
+		"CreatureNamePrefix": "Leaf",
+		"Author": "Si",
+		"Category": 0,
+		"EnableSets": true,
+		"Sets":[
+
+			{
+				"InternalName": "Trees",
+				"DisplayNameKey": "Trees",
+				"CreaturesBelongingToThisSet": [ 0, 1 ],
+				"OffsetsInMenu":[
+
+					{ "X": 20, "Y": 80 },
+					{ "X": 180, "Y": 220 },
+
+				],
+				"ScalesInMenu": [ 3, 3 ],
+			},
+
+			{
+				"InternalName": "FruitTrees",
+				"DisplayNameKey": "Fruit Trees",
+				"CreaturesBelongingToThisSet": [ 3 ],
+				"OffsetsInMenu":[
+
+					{ "X": 20, "Y": 80 },
+
+				],
+				"ScalesInMenu": [ 2 ],
+			},
+
+			{
+				"InternalName": "Bushes",
+				"DisplayNameKey": "Bushes",
+				"CreaturesBelongingToThisSet": [ 2 ],
+				"OffsetsInMenu":[
+
+					{ "X": 20, "Y": 80 },
+
+				],
+				"ScalesInMenu": [ 3, 3 ],
+			},
+
+			{
+				"InternalName": "CropLeaves",
+				"DisplayNameKey": "Crop Leaves",
+				"CreaturesBelongingToThisSet": [ 4 ],
+				"OffsetsInMenu":[
+
+					{ "X": 20, "Y": 80 },
+
+				],
+				"ScalesInMenu": [ 3, 3 ],
+			},
+
+
+		]
+	},
+]

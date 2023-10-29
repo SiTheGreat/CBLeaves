@@ -1,0 +1,18 @@
+{   
+	"Format": "1.28.0",
+	"Changes": [
+
+		{
+			"Action": "Include",
+			"FromFile": "Leaves/Fall.json",
+			"When": {
+				"Time": "{{Range: 600, 2600}}",
+				"Weather|contains= Rain, Storm, Snow": false,
+				//"Season|contains= Fall": true,
+			},
+			"Update": "OnTimeChange"
+		}
+
+
+	]
+}
