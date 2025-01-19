@@ -1,0 +1,71 @@
+{
+    // "Fly": "0/false/0.004/0/1.1/true/true/0/false/spring,summer,fall,winter/0/0,1,SeedShop/1200/2600/4/Mods\\NITVExample\\Fly/0/0/0/40/0/30/11/Mods\\NITVExample\\FlyItem/Fly/A simple fly"
+    // "Name": "rarity 0-5/grounded true false/speed 0.001-0.01/stop time 0/scale 1.1/run true false/moves true false/range 0/dmg false/spring,summer,fall,winter/weather 0/locations 0,1,SeedShop/earliest time 1200/latest time 2600/no of frames 4/Mods\\SiLeaves\\Fly/shadow offset 0/context 0/shadow height 0/price 40/index 0/museum x 11/museum y 30/Mods\\SiLeaves\\FlyItem/Fly/A simple fly"
+
+    // Wild Trees //////////////////////////////////////////////////////////
+
+    // Maple
+    "MapleSpring": "0/false/0.003/0/1.5/false/true/1/false/spring/1/0/600/2600/4/Mods\\SiLeaves\\MapleSpring/0/0/0/1/0/41/8/Mods\\SiLeaves\\MapleSpringLeaf/Spring Maple Leaf/A leaf from a maple tree in the spring.",
+    "MapleSummer": "0/false/0.003/0/1.5/false/true/1/false/summer/1/0/600/2600/4/Mods\\SiLeaves\\MapleSummer/0/0/0/1/0/41/8/Mods\\SiLeaves\\MapleSummerLeaf/Summer Maple Leaf/A leaf from a maple tree in the summer.",
+    "MapleFall": "0/false/0.003/0/1.5/false/true/1/false/fall/1/0/600/2600/4/Mods\\SiLeaves\\MapleFall/0/0/0/1/0/41/8/Mods\\SiLeaves\\MapleFallLeaf/Fall Maple Leaf/A leaf from a maple tree in the fall.",
+
+    // Oak
+    "OakSpring": "0/false/0.003/0/1.5/false/true/1/false/spring/1/0/600/2600/4/Mods\\SiLeaves\\OakSpring/0/0/0/1/0/41/8/Mods\\SiLeaves\\OakSpringLeaf/Spring Oak Leaf/A leaf from an oak tree in the spring.",
+    "OakSummer": "0/false/0.003/0/1.5/false/true/1/false/summer/1/0/600/2600/4/Mods\\SiLeaves\\OakSummer/0/0/0/1/0/41/8/Mods\\SiLeaves\\OakSummerLeaf/Summer Oak Leaf/A leaf from an oak tree in the summer.",
+    "OakFall": "0/false/0.003/0/1.5/false/true/1/false/fall/1/0/600/2600/4/Mods\\SiLeaves\\OakFall/0/0/0/1/0/41/8/Mods\\SiLeaves\\OakFallLeaf/Fall Oak Leaf/A leaf from an oak tree in the fall.",
+
+    // Future: pine sprigs, mahogany, island & desert palms, mystic tree
+
+    // Forage //////////////////////////////////////////////////////////
+
+    // Salmonberry
+    "Salmonberry": "1/false/0.002/0/1.5/false/false/1/false/spring/1/0,1/600/2600/4/Mods\\SiLeaves\\Salmonberry/0/2/0/1/0/41/8/Mods\\SiLeaves\\SalmonberryLeaf/Salmonberry Leaf/A leaf from a salmonberry bush.",
+
+    // Spiceberry
+    "Spiceberry": "1/false/0.002/0/1.5/false/false/1/false/summer/1/0,1/600/2600/4/Mods\\SiLeaves\\Spiceberry/0/2/0/1/0/41/8/Mods\\SiLeaves\\SpiceberryLeaf/Spiceberry Leaf/A leaf from a spicebush.",
+
+    // Blackberry
+    "Blackberry": "1/false/0.002/0/1.5/false/false/1/false/fall/1/0,1/600/2600/4/Mods\\SiLeaves\\Blackberry/0/2/0/1/0/41/8/Mods\\SiLeaves\\BlackberryLeaf/Blackberry Leaf/A leaf from a blackberry bush.",
+
+    // Holly
+    "Holly": "1/false/0.002/0/1.5/false/false/1/false/winter/1/0,1/600/2600/4/Mods\\SiLeaves\\Holly/0/2/0/1/0/41/8/Mods\\SiLeaves\\HollyLeaf/Holly Leaf/A leaf from a holly tree.",
+
+    // Future: possibly some forageable flower leaves
+
+    // Aquatic Surface Plants //////////////////////////////////////////////////////////
+
+    // Lily pads
+    "LilyPadSpring": "0/true/0.005/1000/1.1/false/true/2/false/spring/0/0/600/2600/4/Mods\\SiLeaves\\LilyPadSpring/0/3/0/1/0/44/22/Mods\\SiLeaves\\LilyPadSpringLeaf/Spring Lily Pad/A lily pad that floats on the water in spring.",
+    "LilyPadSummer": "0/true/0.005/1000/1.1/false/true/2/false/summer/0/0/600/2600/4/Mods\\SiLeaves\\LilyPadSummer/0/3/0/1/0/44/24/Mods\\SiLeaves\\LilyPadSummerLeaf/Summer Lily Pad/A lily pad that floats on the water in summer.",
+    "LilyPadFall": "0/true/0.005/1000/1.1/false/true/2/false/fall/0/0/600/2600/4/Mods\\SiLeaves\\LilyPadFall/0/3/0/1/0/39/23/Mods\\SiLeaves\\LilyPadFallLeaf/Fall Lily Pad/A lily pad that floats on the water in fall.",
+
+    // Future: want to do other water surface plants like frogbit and duckweed
+
+    // Fruit Trees //////////////////////////////////////////////////////////
+
+    // Apple
+    "AppleSpringSummer": "2/false/0.003/0/1.5/false/true/1/false/spring,summer/1/0/600/2600/4/Mods\\SiLeaves\\AppleSpringSummer/0/0/0/1/0/41/8/Mods\\SiLeaves\\AppleSpringSummerLeaf/Spring and Summer Apple Leaf/A leaf from a apple tree in the spring and summer.",
+    "AppleFall": "2/false/0.003/0/1.5/false/true/1/false/fall/1/0/600/2600/4/Mods\\SiLeaves\\AppleFall/0/0/0/1/0/41/8/Mods\\SiLeaves\\AppleFallLeaf/Fall Apple Leaf/A leaf from a apple tree in the fall.",
+
+    // Banana
+    "Banana": "2/false/0.002/0/1.5/false/true/1/false/spring,summer,fall,winter/1/IslandSouth,IslandWest,IslandSouthEast,IslandNorth,IslandEast/600/2600/4/Mods\\SiLeaves\\Banana/0/0/0/1/0/41/8/Mods\\SiLeaves\\BananaLeaf/Banana Leaf/A leaf from a banana tree.",
+
+    // Future: all the other vanilla fruit trees
+
+    // Crops //////////////////////////////////////////////////////////
+
+    // Cauliflower
+    "Cauliflower": "3/false/0.003/0/1.5/false/true/1/false/spring/1/0/600/2600/4/Mods\\SiLeaves\\Cauliflower/0/0/0/1/0/41/8/Mods\\SiLeaves\\CauliflowerLeaf/Cauliflower Leaf/A leaf from a cauliflower.",
+
+    // Melon
+    "Melon": "3/false/0.003/0/1.5/false/true/1/false/summer/1/0/600/2600/4/Mods\\SiLeaves\\Melon/0/0/0/1/0/41/8/Mods\\SiLeaves\\MelonLeaf/Melon Leaf/A leaf from a tigger melon.",
+
+    // Pumpkin
+    "Pumpkin": "3/false/0.003/0/1.5/false/true/1/false/fall/1/0/600/2600/4/Mods\\SiLeaves\\Pumpkin/0/0/0/1/0/41/8/Mods\\SiLeaves\\PumpkinLeaf/Pumpkin Leaf/A leaf from a pumpkin.",
+
+    // Powdermelon
+    "Powdermelon": "3/false/0.003/0/1.5/false/true/1/false/winter/1/0/600/2600/4/Mods\\SiLeaves\\Powdermelon/0/0/0/1/0/41/8/Mods\\SiLeaves\\PowdermelonLeaf/Powdermelon Leaf/A leaf from a powdermelon.",
+
+    // Future: straw-, blue-, and cranberries, and maybe a mythical stardrop leaf
+
+}

@@ -1,0 +1,47 @@
+{   
+	"Format": "2.0.6",
+	"Changes": [
+
+		{
+            // Wild Trees
+            // Oak, Maple
+            "Action": "Load",
+            "Target": "Mods/SiLeaves/MapleSpring, Mods/SiLeaves/MapleSpringLeaf, Mods/SiLeaves/MapleSummer, Mods/SiLeaves/MapleSummerLeaf, Mods/SiLeaves/MapleFall, Mods/SiLeaves/MapleFallLeaf, Mods/SiLeaves/OakSpring, Mods/SiLeaves/OakSpringLeaf, Mods/SiLeaves/OakSummer, Mods/SiLeaves/OakSummerLeaf, Mods/SiLeaves/OakFall, Mods/SiLeaves/OakFallLeaf",
+            "FromFile": "Assets/{{TargetWithoutPath}}.png"
+        },
+
+        {
+            // Forage
+            // Salmonberry, Spiceberry, Blackberry, Holly
+            "Action": "Load",
+            "Target": "Mods/SiLeaves/Salmonberry, Mods/SiLeaves/SalmonberryLeaf, Mods/SiLeaves/Spiceberry, Mods/SiLeaves/SpiceberryLeaf, Mods/SiLeaves/Blackberry, Mods/SiLeaves/BlackberryLeaf, Mods/SiLeaves/Holly, Mods/SiLeaves/HollyLeaf",
+            "FromFile": "Assets/{{TargetWithoutPath}}.png"
+        },
+
+        {
+            // Aquatic Surface Plants
+            // Lily Pads
+            "Action": "Load",
+            "Target": "Mods/SiLeaves/LilyPadSpring, Mods/SiLeaves/LilyPadSpringLeaf, Mods/SiLeaves/LilyPadSummer, Mods/SiLeaves/LilyPadSummerLeaf, Mods/SiLeaves/LilyPadFall, Mods/SiLeaves/LilyPadFallLeaf",
+            "FromFile": "Assets/{{TargetWithoutPath}}.png"
+        },
+
+        {
+            // Fruit Trees
+            // Apple ,Banana
+            "Action": "Load",
+            "Target": "Mods/SiLeaves/AppleSpringSummer, Mods/SiLeaves/AppleSpringSummerLeaf, Mods/SiLeaves/AppleFall, Mods/SiLeaves/AppleFallLeaf, Mods/SiLeaves/Banana, Mods/SiLeaves/BananaLeaf",
+            "FromFile": "Assets/{{TargetWithoutPath}}.png"
+        },
+
+        {
+            // Crop
+            // Cauliflower, Melon, Pumpkin, Powdermelon
+            "Action": "Load",
+            "Target": "Mods/SiLeaves/Cauliflower, Mods/SiLeaves/CauliflowerLeaf, Mods/SiLeaves/Melon, Mods/SiLeaves/MelonLeaf, Mods/SiLeaves/Pumpkin, Mods/SiLeaves/PumpkinLeaf, Mods/SiLeaves/Powdermelon, Mods/SiLeaves/PowdermelonLeaf",
+            "FromFile": "Assets/{{TargetWithoutPath}}.png"
+        },
+
+
+	]
+}

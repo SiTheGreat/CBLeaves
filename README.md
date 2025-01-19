@@ -1,2 +1,0 @@
-# CBLeaves
-Stardew Valley Mod
