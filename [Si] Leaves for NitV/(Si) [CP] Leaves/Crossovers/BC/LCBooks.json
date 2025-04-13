@@ -18,8 +18,8 @@
 		"Entries": {
 			"Si.BC_LCLeafBookNote": {
 				"Name": "Si.BC_LCLeafBookNote",
-				"DisplayName": "{{i18n:Si.BC.LCLeafBookName}}",
-				"Description": "{{i18n:Si.BC.LCLeafBookDesc}}",
+				"DisplayName": "Trees of the Ferngill Republic",
+				"Description": "This book is full of information about different kinds of trees and their leaves.",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 303,
@@ -65,8 +65,8 @@
 		"Entries": {
 			"Si.BC_LCLeafBook": {
 				"Name": "Si.BC_LCLeafBook",
-				"DisplayName": "{{i18n:Si.BC.LCLeafBookName}}",
-				"Description": "{{i18n:Si.BC.LCLeafBookDesc}}",
+				"DisplayName": "Trees of the Ferngill Republic",
+				"Description": "This book is full of information about different kinds of trees and their leaves.",
 				"Type": "asdf",
 				"Category": 0,
 				"Price": 303,
@@ -191,8 +191,8 @@
 			// LCLeafBook
 
 			"Si.BC_LCLeafBookSNF": {
-				"Title": "{{i18n:Si.BC.LCLeafBookName}}",
-				"Contents": "{{i18n:Si.BC.LCLeafBookContent}}",
+				"Title": "Trees of the Ferngill Republic",
+				"Contents": "^^Maples and Oaks can be found in equal measure atop the mountains that dot the coast of the Ferngill Republic. While they take on stunning hues in the fall season, both are outnumbered by the evergreen pines that weather the cold winters.",
 				"ObjectId": "(O)Si.BC_LCLeafBookNote",
 				"Location": "null",
 				"NoteTexture": "Mods/Si.BC/blankbook",
