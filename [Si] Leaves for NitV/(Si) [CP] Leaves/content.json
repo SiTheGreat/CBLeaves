@@ -122,13 +122,75 @@
                 },
 
                 // Oak
-                           
+                "OakSpring": {
+                    "spritePath": "Mods\\SiLeaves\\OakSpring",
+                    "itemTexture": "Mods\\SiLeaves\\OakSpringLeaf",
+                    "displayName": "Spring Oak Leaf",
+                    "displayDescription": "A leaf from an oak tree in the spring.",
+                    "rarity": 0,
+                    "seasons": [
+                        "spring",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 52,
+                    "yDef": 24,
+                    "speed": 0.003,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+                "OakSummer": {
+                    "spritePath": "Mods\\SiLeaves\\OakSummer",
+                    "itemTexture": "Mods\\SiLeaves\\OakSummerLeaf",
+                    "displayName": "Summer Oak Leaf",
+                    "displayDescription": "A leaf from an oak tree in the summer.",
+                    "rarity": 0,
+                    "seasons": [
+                        "summer",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 29,
+                    "yDef": 21,
+                    "speed": 0.003,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+                "OakFall": {
+                    "spritePath": "Mods\\SiLeaves\\OakFall",
+                    "itemTexture": "Mods\\SiLeaves\\OakFallLeaf",
+                    "displayName": "Summer Oak Leaf",
+                    "displayDescription": "A leaf from an oak tree in the fall.",
+                    "rarity": 0,
+                    "seasons": [
+                        "fall",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 59,
+                    "yDef": 9,
+                    "speed": 0.003,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
             }
         }
 
-    //     "MapleSpring": "0/false/0.003/0/1.5/false/true/1/false/spring/1/0/600/2600/4/Mods\\SiLeaves\\MapleSpring/0/0/0/1/0/41/8/Mods\\SiLeaves\\MapleSpringLeaf/Spring Maple Leaf/A leaf from a maple tree in the spring./32/32/ /1/false",
-    // "MapleSummer": "0/false/0.003/0/1.5/false/true/1/false/summer/1/0/600/2600/4/Mods\\SiLeaves\\MapleSummer/0/0/0/1/0/50/15/Mods\\SiLeaves\\MapleSummerLeaf/Summer Maple Leaf/A leaf from a maple tree in the summer./32/32/ /1/false",
-    // "MapleFall": "0/false/0.003/0/1.5/false/true/1/false/fall/1/0/600/2600/4/Mods\\SiLeaves\\MapleFall/0/0/0/1/0/33/22/Mods\\SiLeaves\\MapleFallLeaf/Fall Maple Leaf/A leaf from a maple tree in the fall./32/32/ /1/false",
 
     // "Fly": "0/false/0.004/0/1.1/true/true/0/false/spring,summer,fall,winter/0/0,1,SeedShop/1200/2600/4/Mods\\NITVExample\\Fly/0/0/0/40/0/30/11/Mods\\NITVExample\\FlyItem/Fly/A simple fly"
     // "Name": "rarity 0-5/grounded true false/speed 0.001-0.01/stop time 0/scale 1.1/run true false/moves true false/range 0/dmg false/spring,summer,fall,winter/weather 0/locations 0,1,SeedShop/earliest time 1200/latest time 2600/no of frames 4/Mods\\SiLeaves\\Fly/shadow offset 0/context 0/shadow height 0/price 40/index 0/museum x 11/museum y 30/Mods\\SiLeaves\\FlyItem/Fly/A simple fly/s sprite size 32/y sprite size 32/GSQ /pack size 1/rotary anims false"
