@@ -410,6 +410,107 @@
                     "Price": 1,
                     "grounded": false,
                 },
+
+                // Forage
+
+                // Salmonberry
+                "Salmonberry": {
+                    "spritePath": "Mods\\SiLeaves\\Salmonberry",
+                    "itemTexture": "Mods\\SiLeaves\\SalmonberryLeaf",
+                    "displayName": "Salmonberry Leaf",
+                    "displayDescription": "A leaf from a salmonberry bush.",
+                    "rarity": 1,
+                    "seasons": [
+                        "spring",
+                    ],
+                    "locations": [
+                        "0",
+                        "1",
+                    ],
+                    "localSpawnCode": 2,
+                    "xDef": 43,
+                    "yDef": 8,
+                    "speed": 0.002,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                // Spiceberry
+                "Spiceberry": {
+                    "spritePath": "Mods\\SiLeaves\\Spiceberry",
+                    "itemTexture": "Mods\\SiLeaves\\SpiceberryLeaf",
+                    "displayName": "Spiceberry Leaf",
+                    "displayDescription": "A leaf from a spicebush.",
+                    "rarity": 1,
+                    "seasons": [
+                        "summer",
+                    ],
+                    "locations": [
+                        "0",
+                        "1",
+                    ],
+                    "localSpawnCode": 2,
+                    "xDef": 36,
+                    "yDef": 11,
+                    "speed": 0.002,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                // Blackberry
+                "Blackberry": {
+                    "spritePath": "Mods\\SiLeaves\\Blackberry",
+                    "itemTexture": "Mods\\SiLeaves\\BlackberryLeaf",
+                    "displayName": "Blackberry Leaf",
+                    "displayDescription": "A leaf from a blackberry bush.",
+                    "rarity": 1,
+                    "seasons": [
+                        "fall",
+                    ],
+                    "locations": [
+                        "0",
+                        "1",
+                    ],
+                    "localSpawnCode": 2,
+                    "xDef": 49,
+                    "yDef": 13,
+                    "speed": 0.002,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                "Holly": {
+                    "spritePath": "Mods\\SiLeaves\\Holly",
+                    "itemTexture": "Mods\\SiLeaves\\HollyLeaf",
+                    "displayName": "Holly Leaf",
+                    "displayDescription": "A leaf from a holly tree.",
+                    "rarity": 1,
+                    "seasons": [
+                        "winter",
+                    ],
+                    "locations": [
+                        "0",
+                        "1",
+                    ],
+                    "localSpawnCode": 2,
+                    "xDef": 32,
+                    "yDef": 22,
+                    "speed": 0.002,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
             }
         }
 

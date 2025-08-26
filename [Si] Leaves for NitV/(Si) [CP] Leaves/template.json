@@ -1,23 +1,21 @@
-                // Mystic
-                "Mystic": {
-                    "spritePath": "Mods\\SiLeaves\\Mystic",
-                    "itemTexture": "Mods\\SiLeaves\\MysticLeaf",
-                    "displayName": "Mystic Leaf",
-                    "displayDescription": "An unusual leaf from a mystical tree.",
-                    "rarity": 2,
+                // Holly
+                "Holly": {
+                    "spritePath": "Mods\\SiLeaves\\Holly",
+                    "itemTexture": "Mods\\SiLeaves\\HollyLeaf",
+                    "displayName": "Holly Leaf",
+                    "displayDescription": "A leaf from a holly tree.",
+                    "rarity": 1,
                     "seasons": [
-                        "spring",
-                        "summer",
-                        "fall",
                         "winter",
                     ],
                     "locations": [
                         "0",
+                        "1",
                     ],
-                    "localSpawnCode": 0,
-                    "xDef": 46,
-                    "yDef": 16,
-                    "speed": 0.003,
+                    "localSpawnCode": 2,
+                    "xDef": 32,
+                    "yDef": 22,
+                    "speed": 0.002,
                     "scale": 1.5,
                     "weatherCode": "1",
                     "range": 1,
