@@ -29,7 +29,7 @@
         },
 
         {
-            // Crop
+            // Crops
             // Cauliflower, Melon, Pumpkin, Powdermelon, Strawberry, Blueberry, Cranberry, Starfruit, Stardrop, Sweet Gem Berry
             "Action": "Load",
             "Target": "Mods/SiLeaves/Cauliflower, Mods/SiLeaves/CauliflowerLeaf, Mods/SiLeaves/Melon, Mods/SiLeaves/MelonLeaf, Mods/SiLeaves/Pumpkin, Mods/SiLeaves/PumpkinLeaf, Mods/SiLeaves/Powdermelon, Mods/SiLeaves/PowdermelonLeaf, Mods/SiLeaves/Strawberry, Mods/SiLeaves/StrawberryLeaf, Mods/SiLeaves/Blueberry, Mods/SiLeaves/BlueberryLeaf, Mods/SiLeaves/Cranberry, Mods/SiLeaves/CranberryLeaf, Mods/SiLeaves/Starfruit, Mods/SiLeaves/StarfruitLeaf, Mods/SiLeaves/Stardrop, Mods/SiLeaves/StardropLeaf, Mods/SiLeaves/SweetGem, Mods/SiLeaves/SweetGemLeaf",
@@ -511,6 +511,225 @@
                     "Price": 1,
                     "grounded": false,
                 },
+
+                // Fruit Trees
+
+                // Apricot
+                // Cherry
+                // Orange
+                // Peach
+                // Apple
+                // Pomegranate
+                // Banana
+                // Mango
+
+                // Crops
+
+                // Cauliflower
+                "Cauliflower": {
+                    "spritePath": "Mods\\SiLeaves\\Cauliflower",
+                    "itemTexture": "Mods\\SiLeaves\\CauliflowerLeaf",
+                    "displayName": "Cauliflower Leaf",
+                    "displayDescription": "A leaf from a cauliflower.",
+                    "rarity": 3,
+                    "seasons": [
+                        "spring",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 33,
+                    "yDef": 13,
+                    "speed": 0.003,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                // Melon
+                "Melon": {
+                    "spritePath": "Mods\\SiLeaves\\Melon",
+                    "itemTexture": "Mods\\SiLeaves\\MelonLeaf",
+                    "displayName": "Melon Leaf",
+                    "displayDescription": "A leaf from a tigger melon.",
+                    "rarity": 3,
+                    "seasons": [
+                        "summer",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 45,
+                    "yDef": 20,
+                    "speed": 0.003,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                // Pumpkin
+                "Pumpkin": {
+                    "spritePath": "Mods\\SiLeaves\\Pumpkin",
+                    "itemTexture": "Mods\\SiLeaves\\PumpkinLeaf",
+                    "displayName": "Pumpkin Leaf",
+                    "displayDescription": "A leaf from a pumpkin.",
+                    "rarity": 3,
+                    "seasons": [
+                        "fall",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 60,
+                    "yDef": 22,
+                    "speed": 0.003,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                // Powdermelon
+                "Powdermelon": {
+                    "spritePath": "Mods\\SiLeaves\\Powdermelon",
+                    "itemTexture": "Mods\\SiLeaves\\PowdermelonLeaf",
+                    "displayName": "Powdermelon Leaf",
+                    "displayDescription": "A leaf from a powdermelon.",
+                    "rarity": 3,
+                    "seasons": [
+                        "winter",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 48,
+                    "yDef": 11,
+                    "speed": 0.003,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                // Strawberry
+                "Strawberry": {
+                    "spritePath": "Mods\\SiLeaves\\Strawberry",
+                    "itemTexture": "Mods\\SiLeaves\\StrawberryLeaf",
+                    "displayName": "Strawberry Leaf",
+                    "displayDescription": "A leaf from a strawberry plant.",
+                    "rarity": 1,
+                    "seasons": [
+                        "spring",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 54,
+                    "yDef": 9,
+                    "speed": 0.003,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                // Blueberry
+                "Blueberry": {
+                    "spritePath": "Mods\\SiLeaves\\Blueberry",
+                    "itemTexture": "Mods\\SiLeaves\\BlueberryLeaf",
+                    "displayName": "Blueberry Leaf",
+                    "displayDescription": "A leaf from a blueberry plant.",
+                    "rarity": 1,
+                    "seasons": [
+                        "summer",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 64,
+                    "yDef": 9,
+                    "speed": 0.003,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                // Cranberry
+                "Cranberry": {
+                    "spritePath": "Mods\\SiLeaves\\Cranberry",
+                    "itemTexture": "Mods\\SiLeaves\\CranberryLeaf",
+                    "displayName": "Cranberry Leaf",
+                    "displayDescription": "A leaf from a cranberry plant.",
+                    "rarity": 1,
+                    "seasons": [
+                        "fall",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 36,
+                    "yDef": 24,
+                    "speed": 0.003,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                // Starfruit
+                "Starfruit": {
+                    "spritePath": "Mods\\SiLeaves\\Starfruit",
+                    "itemTexture": "Mods\\SiLeaves\\StarfruitLeaf",
+                    "displayName": "Starfruit Leaf",
+                    "displayDescription": "A leaf from a starfruit plant.",
+                    "rarity": 1,
+                    "seasons": [
+                        "spring",
+                        "summer",
+                        "fall",
+                        "winter",
+                    ],
+                    "locations": [
+                        "IslandNorth",
+                        "IslandSouth",
+                        "IslandSouthEast",
+                        "IslandWest",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 18,
+                    "yDef": 34,
+                    "speed": 0.002,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                    "displayedLocation": "Ginger Island",
+                },
+
+                // Other
+
+                // Lilypads
+                // Sweet Gem Berry
+                // Tumbleweed
+                // Stardrop
             }
         }
 
