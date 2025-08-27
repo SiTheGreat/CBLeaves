@@ -727,9 +727,155 @@
                 // Other
 
                 // Lilypads
+                "LilyPadSpring": {
+                    "spritePath": "Mods\\SiLeaves\\LilyPadSpring",
+                    "itemTexture": "Mods\\SiLeaves\\LilyPadSpringLeaf",
+                    "displayName": "Spring Lily Pad",
+                    "displayDescription": "A lily pad that floats on the water in spring.",
+                    "rarity": 0,
+                    "seasons": [
+                        "spring",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 3,
+                    "xDef": 43,
+                    "yDef": 22,
+                    "speed": 0.005,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": true,
+                },
+                "LilyPadSummer": {
+                    "spritePath": "Mods\\SiLeaves\\LilyPadSummer",
+                    "itemTexture": "Mods\\SiLeaves\\LilyPadSummerLeaf",
+                    "displayName": "Summer Lily Pad",
+                    "displayDescription": "A lily pad that floats on the water in summer.",
+                    "rarity": 0,
+                    "seasons": [
+                        "summer",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 3,
+                    "xDef": 43,
+                    "yDef": 24,
+                    "speed": 0.005,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": true,
+                },
+                "LilyPadFall": {
+                    "spritePath": "Mods\\SiLeaves\\LilyPadFall",
+                    "itemTexture": "Mods\\SiLeaves\\LilyPadFallLeaf",
+                    "displayName": "Summer Lily Pad",
+                    "displayDescription": "A lily pad that floats on the water in fall.",
+                    "rarity": 0,
+                    "seasons": [
+                        "fall",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 3,
+                    "xDef": 40,
+                    "yDef": 23,
+                    "speed": 0.005,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": true,
+                },
+                
                 // Sweet Gem Berry
+                "SweetGem": {
+                    "spritePath": "Mods\\SiLeaves\\SweetGem",
+                    "itemTexture": "Mods\\SiLeaves\\SweetGemLeaf",
+                    "displayName": "Sweet Gem Berry Leaf",
+                    "displayDescription": "A leaf from a sweet gem berry plant.",
+                    "rarity": 3,
+                    "seasons": [
+                        "spring",
+                        "summer",
+                        "fall",
+                        "winter",
+                    ],
+                    "locations": [
+                        "Woods",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 52,
+                    "yDef": 20,
+                    "speed": 0.005,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                    "displayedLocation": "Secret Woods",
+                },
+
                 // Tumbleweed
+                "Tumbleweed": {
+                    "spritePath": "Mods\\SiLeaves\\Tumbleweed",
+                    "itemTexture": "Mods\\SiLeaves\\TumbleweedLeaf",
+                    "displayName": "Tumbleweed",
+                    "displayDescription": "A tumbleweed you found rolling around in the desert.",
+                    "rarity": 2,
+                    "seasons": [
+                        "spring",
+                        "summer",
+                        "fall",
+                        "winter",
+                    ],
+                    "locations": [
+                        "4",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 72,
+                    "yDef": 40,
+                    "speed": 0.01,
+                    "scale": 1.8,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": true,
+                },
+
                 // Stardrop
+                "Stardrop": {
+                    "spritePath": "Mods\\SiLeaves\\Stardrop",
+                    "itemTexture": "Mods\\SiLeaves\\StardropLeaf",
+                    "displayName": "Stardrop Leaf",
+                    "displayDescription": "This leaf carries a wonderful scent.",
+                    "rarity": 4,
+                    "seasons": [
+                        "spring",
+                        "summer",
+                        "fall",
+                        "winter",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 62,
+                    "yDef": 11,
+                    "speed": 0.006,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
             }
         }
 
