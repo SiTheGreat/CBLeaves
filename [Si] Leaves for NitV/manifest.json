@@ -11,7 +11,7 @@
 	"Dependencies": [
 		{
 			"UniqueID": "Si.BC",
-			"IsRequired": false
+			"IsRequired": false,
 		},
 	]
 }
