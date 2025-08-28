@@ -38,9 +38,9 @@
 
         {
             // Other
-            // Lily Pads, Tumbleweed
+            // Lily Pads, Tumbleweed, Burnt, Mossy
             "Action": "Load",
-            "Target": "Mods/SiLeaves/LilyPadSpring, Mods/SiLeaves/LilyPadSpringLeaf, Mods/SiLeaves/LilyPadSummer, Mods/SiLeaves/LilyPadSummerLeaf, Mods/SiLeaves/LilyPadFall, Mods/SiLeaves/LilyPadFallLeaf, Mods/SiLeaves/Tumbleweed, Mods/SiLeaves/TumbleweedLeaf",
+            "Target": "Mods/SiLeaves/LilyPadSpring, Mods/SiLeaves/LilyPadSpringLeaf, Mods/SiLeaves/LilyPadSummer, Mods/SiLeaves/LilyPadSummerLeaf, Mods/SiLeaves/LilyPadFall, Mods/SiLeaves/LilyPadFallLeaf, Mods/SiLeaves/Tumbleweed, Mods/SiLeaves/TumbleweedLeaf, Mods/SiLeaves/Burnt, Mods/SiLeaves/BurntLeaf, Mods/SiLeaves/Mossy, Mods/SiLeaves/MossyLeaf",
             "FromFile": "Assets/{{TargetWithoutPath}}.png"
         },
 
@@ -1239,6 +1239,60 @@
                     "Price": 1,
                     "grounded": false,
                     "displayedLocation": "{{i18n:Si.LC.loc.woods}}",
+                },
+
+                // Burnt
+                "Burnt": {
+                    "spritePath": "Mods\\SiLeaves\\Burnt",
+                    "itemTexture": "Mods\\SiLeaves\\BurntLeaf",
+                    "displayName": "{{i18n:Si.LC.name.Burnt}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Burnt}}",
+                    "rarity": 1,
+                    "seasons": [
+                        "spring",
+                        "summer",
+                        "fall",
+                        "winter",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 60,
+                    "yDef": 15,
+                    "speed": 0.01,
+                    "scale": 1.5,
+                    "weatherCode": "3",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                // Mossy
+                "Mossy": {
+                    "spritePath": "Mods\\SiLeaves\\Mossy",
+                    "itemTexture": "Mods\\SiLeaves\\MossytLeaf",
+                    "displayName": "{{i18n:Si.LC.name.Mossy}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Mossy}}",
+                    "rarity": 2,
+                    "seasons": [
+                        "spring",
+                        "summer",
+                        "fall",
+                        "winter",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 55,
+                    "yDef": 13,
+                    "speed": 0.001,
+                    "scale": 1.5,
+                    "weatherCode": "2",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
                 },
 
                 // Tumbleweed
