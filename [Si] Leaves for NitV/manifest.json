@@ -3,7 +3,7 @@
 	"Author": "SiTheGreat",
 	"Version": "2.1.0",
 	"Description": "Collect leaves floating around the valley.",
-	"UniqueID": "Si.CPLeaves",
+	"UniqueID": "Si.NVLeaves",
 	"UpdateKeys": [ "Nexus:18928" ],
 	"ContentPackFor":{ 
 		"UniqueID": "Pathoschild.ContentPatcher",

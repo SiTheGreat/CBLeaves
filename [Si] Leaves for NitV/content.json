@@ -57,8 +57,8 @@
                 "MapleSpring": {
                     "spritePath": "Mods\\SiLeaves\\MapleSpring",
                     "itemTexture": "Mods\\SiLeaves\\MapleSpringLeaf",
-                    "displayName": "Spring Maple Leaf",
-                    "displayDescription": "A leaf from a maple tree in the spring.",
+                    "displayName": "{{i18n:Si.LC.name.MapleSpring}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.MapleSpring}}",
                     "rarity": 0,
                     "seasons": [
                         "spring",
@@ -79,8 +79,8 @@
                 "MapleSummer": {
                     "spritePath": "Mods\\SiLeaves\\MapleSummer",
                     "itemTexture": "Mods\\SiLeaves\\MapleSummerLeaf",
-                    "displayName": "Summer Maple Leaf",
-                    "displayDescription": "A leaf from a maple tree in the summer.",
+                    "displayName": "{{i18n:Si.LC.name.MapleSummer}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.MapleSummer}}",
                     "rarity": 0,
                     "seasons": [
                         "summer",
@@ -101,8 +101,8 @@
                 "MapleFall": {
                     "spritePath": "Mods\\SiLeaves\\MapleFall",
                     "itemTexture": "Mods\\SiLeaves\\MapleFallLeaf",
-                    "displayName": "Fall Maple Leaf",
-                    "displayDescription": "A leaf from a maple tree in the fall.",
+                    "displayName": "{{i18n:Si.LC.name.MapleFall}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.MapleFall}}",
                     "rarity": 0,
                     "seasons": [
                         "fall",
@@ -125,8 +125,8 @@
                 "OakSpring": {
                     "spritePath": "Mods\\SiLeaves\\OakSpring",
                     "itemTexture": "Mods\\SiLeaves\\OakSpringLeaf",
-                    "displayName": "Spring Oak Leaf",
-                    "displayDescription": "A leaf from an oak tree in the spring.",
+                    "displayName": "{{i18n:Si.LC.name.OakSpring}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.OakSpring}}",
                     "rarity": 0,
                     "seasons": [
                         "spring",
@@ -147,8 +147,8 @@
                 "OakSummer": {
                     "spritePath": "Mods\\SiLeaves\\OakSummer",
                     "itemTexture": "Mods\\SiLeaves\\OakSummerLeaf",
-                    "displayName": "Summer Oak Leaf",
-                    "displayDescription": "A leaf from an oak tree in the summer.",
+                    "displayName": "{{i18n:Si.LC.name.OakSummer}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.OakSummer}}",
                     "rarity": 0,
                     "seasons": [
                         "summer",
@@ -169,8 +169,8 @@
                 "OakFall": {
                     "spritePath": "Mods\\SiLeaves\\OakFall",
                     "itemTexture": "Mods\\SiLeaves\\OakFallLeaf",
-                    "displayName": "Fall Oak Leaf",
-                    "displayDescription": "A leaf from an oak tree in the fall.",
+                    "displayName": "{{i18n:Si.LC.name.OakFall}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.OakFall}}",
                     "rarity": 0,
                     "seasons": [
                         "fall",
@@ -193,8 +193,8 @@
                 "PineSpringSummer": {
                     "spritePath": "Mods\\SiLeaves\\PineSpringSummer",
                     "itemTexture": "Mods\\SiLeaves\\PineSpringSummerLeaf",
-                    "displayName": "Spring and Summer Pine Sprig",
-                    "displayDescription": "A sprig of pine needles from a pine tree in the spring and summer.",
+                    "displayName": "{{i18n:Si.LC.name.PineSpringSummer}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.PineSpringSummer}}",
                     "rarity": 0,
                     "seasons": [
                         "spring",
@@ -216,8 +216,8 @@
                 "PineFall": {
                     "spritePath": "Mods\\SiLeaves\\PineFall",
                     "itemTexture": "Mods\\SiLeaves\\PineFallLeaf",
-                    "displayName": "Fall Pine Sprig",
-                    "displayDescription": "A sprig of pine needles from a pine tree in the fall.",
+                    "displayName": "{{i18n:Si.LC.name.PineFall}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.PineFall}}",
                     "rarity": 0,
                     "seasons": [
                         "fall",
@@ -238,8 +238,8 @@
                 "PineWinter": {
                     "spritePath": "Mods\\SiLeaves\\PineWinter",
                     "itemTexture": "Mods\\SiLeaves\\PineWinterLeaf",
-                    "displayName": "Winter Pine Sprig",
-                    "displayDescription": "A sprig of pine needles from a pine tree in the winter.",
+                    "displayName": "{{i18n:Si.LC.name.PineWinter}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.PineWinter}}",
                     "rarity": 0,
                     "seasons": [
                         "winter",
@@ -262,8 +262,8 @@
                 "MahoganySpring": {
                     "spritePath": "Mods\\SiLeaves\\MahoganySpring",
                     "itemTexture": "Mods\\SiLeaves\\MahoganySpringLeaf",
-                    "displayName": "Spring Mahogany Leaf",
-                    "displayDescription": "A leaf from a mahogany tree in the spring.",
+                    "displayName": "{{i18n:Si.LC.name.MahoganySpring}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.MahoganySpring}}",
                     "rarity": 2,
                     "seasons": [
                         "spring",
@@ -284,8 +284,8 @@
                 "MahoganySummer": {
                     "spritePath": "Mods\\SiLeaves\\MahoganySummer",
                     "itemTexture": "Mods\\SiLeaves\\MahoganySummerLeaf",
-                    "displayName": "Summer Mahogany Leaf",
-                    "displayDescription": "A leaf from a mahogany tree in the summer.",
+                    "displayName": "{{i18n:Si.LC.name.MahoganySummer}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.MahoganySummer}}",
                     "rarity": 2,
                     "seasons": [
                         "summer",
@@ -306,8 +306,8 @@
                 "MahoganyFall": {
                     "spritePath": "Mods\\SiLeaves\\MahoganyFall",
                     "itemTexture": "Mods\\SiLeaves\\MahoganyFallLeaf",
-                    "displayName": "Fall Mahogany Leaf",
-                    "displayDescription": "A leaf from a mahogany tree in the fall.",
+                    "displayName": "{{i18n:Si.LC.name.MahoganyFall}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.MahoganyFall}}",
                     "rarity": 2,
                     "seasons": [
                         "fall",
@@ -330,8 +330,8 @@
                 "IslandPalm": {
                     "spritePath": "Mods\\SiLeaves\\IslandPalm",
                     "itemTexture": "Mods\\SiLeaves\\IslandPalmLeaf",
-                    "displayName": "Island Palm Frond",
-                    "displayDescription": "A frond from a tropical palm tree.",
+                    "displayName": "{{i18n:Si.LC.name.IslandPalm}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.IslandPalm}}",
                     "rarity": 0,
                     "seasons": [
                         "spring",
@@ -361,8 +361,8 @@
                 "DesertPalm": {
                     "spritePath": "Mods\\SiLeaves\\DesertPalm",
                     "itemTexture": "Mods\\SiLeaves\\DesertPalmLeaf",
-                    "displayName": "Desert Palm Frond",
-                    "displayDescription": "A frond from a palm tree in the desert.",
+                    "displayName": "{{i18n:Si.LC.name.DesertPalm}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.DesertPalm}}",
                     "rarity": 0,
                     "seasons": [
                         "spring",
@@ -388,8 +388,8 @@
                 "Mystic": {
                     "spritePath": "Mods\\SiLeaves\\Mystic",
                     "itemTexture": "Mods\\SiLeaves\\MysticLeaf",
-                    "displayName": "Mystic Leaf",
-                    "displayDescription": "An unusual leaf from a mystical tree.",
+                    "displayName": "{{i18n:Si.LC.name.Mystic}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Mystic}}",
                     "rarity": 2,
                     "seasons": [
                         "spring",
@@ -417,8 +417,8 @@
                 "Salmonberry": {
                     "spritePath": "Mods\\SiLeaves\\Salmonberry",
                     "itemTexture": "Mods\\SiLeaves\\SalmonberryLeaf",
-                    "displayName": "Salmonberry Leaf",
-                    "displayDescription": "A leaf from a salmonberry bush.",
+                    "displayName": "{{i18n:Si.LC.name.Salmonberry}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Salmonberry}}",
                     "rarity": 1,
                     "seasons": [
                         "spring",
@@ -442,8 +442,8 @@
                 "Spiceberry": {
                     "spritePath": "Mods\\SiLeaves\\Spiceberry",
                     "itemTexture": "Mods\\SiLeaves\\SpiceberryLeaf",
-                    "displayName": "Spiceberry Leaf",
-                    "displayDescription": "A leaf from a spicebush.",
+                    "displayName": "{{i18n:Si.LC.name.Spiceberry}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Spiceberry}}",
                     "rarity": 1,
                     "seasons": [
                         "summer",
@@ -467,8 +467,8 @@
                 "Blackberry": {
                     "spritePath": "Mods\\SiLeaves\\Blackberry",
                     "itemTexture": "Mods\\SiLeaves\\BlackberryLeaf",
-                    "displayName": "Blackberry Leaf",
-                    "displayDescription": "A leaf from a blackberry bush.",
+                    "displayName": "{{i18n:Si.LC.name.Blackberry}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Blackberry}}",
                     "rarity": 1,
                     "seasons": [
                         "fall",
@@ -491,8 +491,8 @@
                 "Holly": {
                     "spritePath": "Mods\\SiLeaves\\Holly",
                     "itemTexture": "Mods\\SiLeaves\\HollyLeaf",
-                    "displayName": "Holly Leaf",
-                    "displayDescription": "A leaf from a holly tree.",
+                    "displayName": "{{i18n:Si.LC.name.Holly}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Holly}}",
                     "rarity": 1,
                     "seasons": [
                         "winter",
@@ -518,8 +518,8 @@
                 "ApricotSpringSummer": {
                     "spritePath": "Mods\\SiLeaves\\ApricotSpringSummer",
                     "itemTexture": "Mods\\SiLeaves\\ApricotSpringSummerLeaf",
-                    "displayName": "Spring and Summer Apricot Leaf",
-                    "displayDescription": "A leaf from an apricot tree in the spring and summer.",
+                    "displayName": "{{i18n:Si.LC.name.ApricotSpringSummer}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.ApricotSpringSummer}}",
                     "rarity": 2,
                     "seasons": [
                         "spring",
@@ -541,8 +541,8 @@
                 "ApricotFall": {
                     "spritePath": "Mods\\SiLeaves\\ApricotFall",
                     "itemTexture": "Mods\\SiLeaves\\ApricotFallLeaf",
-                    "displayName": "Fall Apricot Leaf",
-                    "displayDescription": "A leaf from an apricot tree in the fall.",
+                    "displayName": "{{i18n:Si.LC.name.ApricotFall}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.ApricotFall}}",
                     "rarity": 2,
                     "seasons": [
                         "fall",
@@ -565,8 +565,8 @@
                 "CherrySpring": {
                     "spritePath": "Mods\\SiLeaves\\CherrySpring",
                     "itemTexture": "Mods\\SiLeaves\\CherrySpringLeaf",
-                    "displayName": "Spring Cherry Leaf",
-                    "displayDescription": "A leaf from a cherry tree in the spring.",
+                    "displayName": "{{i18n:Si.LC.name.CherrySpring}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.CherrySpring}}",
                     "rarity": 2,
                     "seasons": [
                         "spring",
@@ -587,8 +587,8 @@
                 "CherrySummer": {
                     "spritePath": "Mods\\SiLeaves\\CherrySummer",
                     "itemTexture": "Mods\\SiLeaves\\CherrySummerLeaf",
-                    "displayName": "Summer Cherry Leaf",
-                    "displayDescription": "A leaf from a cherry tree in the summer.",
+                    "displayName": "{{i18n:Si.LC.name.CherrySummer}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.CherrySummer}}",
                     "rarity": 2,
                     "seasons": [
                         "summer",
@@ -609,8 +609,8 @@
                 "CherryFall": {
                     "spritePath": "Mods\\SiLeaves\\CherryFall",
                     "itemTexture": "Mods\\SiLeaves\\CherryFallLeaf",
-                    "displayName": "Fall Cherry Leaf",
-                    "displayDescription": "A leaf from a cherry tree in the fall.",
+                    "displayName": "{{i18n:Si.LC.name.CherryFall}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.CherryFall}}",
                     "rarity": 2,
                     "seasons": [
                         "fall",
@@ -633,8 +633,8 @@
                 "OrangeSpring": {
                     "spritePath": "Mods\\SiLeaves\\OrangeSpring",
                     "itemTexture": "Mods\\SiLeaves\\OrangeSpringLeaf",
-                    "displayName": "Spring Orange Leaf",
-                    "displayDescription": "A leaf from an orange tree in the spring.",
+                    "displayName": "{{i18n:Si.LC.name.OrangeSpring}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.OrangeSpring}}",
                     "rarity": 2,
                     "seasons": [
                         "spring",
@@ -655,8 +655,8 @@
                 "OrangeSummer": {
                     "spritePath": "Mods\\SiLeaves\\OrangeSummer",
                     "itemTexture": "Mods\\SiLeaves\\OrangeSummerLeaf",
-                    "displayName": "Summer Orange Leaf",
-                    "displayDescription": "A leaf from an orange tree in the summer.",
+                    "displayName": "{{i18n:Si.LC.name.OrangeSummer}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.OrangeSummer}}",
                     "rarity": 2,
                     "seasons": [
                         "summer",
@@ -677,8 +677,8 @@
                 "OrangeFall": {
                     "spritePath": "Mods\\SiLeaves\\OrangeFall",
                     "itemTexture": "Mods\\SiLeaves\\OrangeFallLeaf",
-                    "displayName": "Fall Orange Leaf",
-                    "displayDescription": "A leaf from an orange tree in the fall.",
+                    "displayName": "{{i18n:Si.LC.name.OrangeFall}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.OrangeFall}}",
                     "rarity": 2,
                     "seasons": [
                         "fall",
@@ -701,8 +701,8 @@
                 "PeachSpring": {
                     "spritePath": "Mods\\SiLeaves\\PeachSpring",
                     "itemTexture": "Mods\\SiLeaves\\PeachSpringLeaf",
-                    "displayName": "Spring Peach Leaf",
-                    "displayDescription": "A leaf from a peach tree in the spring.",
+                    "displayName": "{{i18n:Si.LC.name.PeachSpring}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.PeachSpring}}",
                     "rarity": 2,
                     "seasons": [
                         "spring",
@@ -723,8 +723,8 @@
                 "PeachSummer": {
                     "spritePath": "Mods\\SiLeaves\\PeachSummer",
                     "itemTexture": "Mods\\SiLeaves\\PeachSummerLeaf",
-                    "displayName": "Summer Peach Leaf",
-                    "displayDescription": "A leaf from a peach tree in the summer.",
+                    "displayName": "{{i18n:Si.LC.name.PeachSummer}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.PeachSummer}}",
                     "rarity": 2,
                     "seasons": [
                         "summer",
@@ -745,8 +745,8 @@
                 "PeachFall": {
                     "spritePath": "Mods\\SiLeaves\\PeachFall",
                     "itemTexture": "Mods\\SiLeaves\\PeachFallLeaf",
-                    "displayName": "Fall Peach Leaf",
-                    "displayDescription": "A leaf from a peach tree in the fall.",
+                    "displayName": "{{i18n:Si.LC.name.PeachFall}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.PeachFall}}",
                     "rarity": 2,
                     "seasons": [
                         "fall",
@@ -769,8 +769,8 @@
                 "AppleSpringSummer": {
                     "spritePath": "Mods\\SiLeaves\\AppleSpringSummer",
                     "itemTexture": "Mods\\SiLeaves\\AppleSpringSummerLeaf",
-                    "displayName": "Spring and Summer Apple Leaf",
-                    "displayDescription": "A leaf from an apple tree in the spring and summer.",
+                    "displayName": "{{i18n:Si.LC.name.AppleSpringSummer}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.AppleSpringSummer}}",
                     "rarity": 2,
                     "seasons": [
                         "spring",
@@ -792,8 +792,8 @@
                 "AppleFall": {
                     "spritePath": "Mods\\SiLeaves\\AppleFall",
                     "itemTexture": "Mods\\SiLeaves\\AppleFallLeaf",
-                    "displayName": "Fall Apple Leaf",
-                    "displayDescription": "A leaf from an apple tree in the fall.",
+                    "displayName": "{{i18n:Si.LC.name.AppleFall}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.AppleFall}}",
                     "rarity": 2,
                     "seasons": [
                         "fall",
@@ -816,8 +816,8 @@
                 "PomegranateSpring": {
                     "spritePath": "Mods\\SiLeaves\\PomegranateSpring",
                     "itemTexture": "Mods\\SiLeaves\\PomegranateSpringLeaf",
-                    "displayName": "Spring Pomegranate Leaf",
-                    "displayDescription": "A leaf from a pomegranate tree in the spring.",
+                    "displayName": "{{i18n:Si.LC.name.PomegranateSpring}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.PomegranateSpring}}",
                     "rarity": 2,
                     "seasons": [
                         "spring",
@@ -838,8 +838,8 @@
                 "PomegranateSummer": {
                     "spritePath": "Mods\\SiLeaves\\PomegranateSummer",
                     "itemTexture": "Mods\\SiLeaves\\PomegranateSummerLeaf",
-                    "displayName": "Summer Pomegranate Leaf",
-                    "displayDescription": "A leaf from a pomegranate tree in the summer.",
+                    "displayName": "{{i18n:Si.LC.name.PomegranateSummer}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.PomegranateSummer}}",
                     "rarity": 2,
                     "seasons": [
                         "summer",
@@ -860,8 +860,8 @@
                 "PomegranateFall": {
                     "spritePath": "Mods\\SiLeaves\\PomegranateFall",
                     "itemTexture": "Mods\\SiLeaves\\PomegranateFallLeaf",
-                    "displayName": "Fall Pomegranate Leaf",
-                    "displayDescription": "A leaf from a pomegranate tree in the fall.",
+                    "displayName": "{{i18n:Si.LC.name.PomegranateFall}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.PomegranateFall}}",
                     "rarity": 2,
                     "seasons": [
                         "fall",
@@ -884,8 +884,8 @@
                 "Banana": {
                     "spritePath": "Mods\\SiLeaves\\Banana",
                     "itemTexture": "Mods\\SiLeaves\\BananaLeaf",
-                    "displayName": "Banana Leaf",
-                    "displayDescription": "A leaf from a banana tree.",
+                    "displayName": "{{i18n:Si.LC.name.Banana}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Banana}}",
                     "rarity": 2,
                     "seasons": [
                         "spring",
@@ -908,15 +908,15 @@
                     "range": 1,
                     "Price": 1,
                     "grounded": false,
-                    "displayedLocation": "Ginger Island",
+                    "displayedLocation": "{{i18n:Si.LC.loc.island}}",
                 },
 
                 // Mango
                 "Mango": {
                     "spritePath": "Mods\\SiLeaves\\Mango",
                     "itemTexture": "Mods\\SiLeaves\\MangoLeaf",
-                    "displayName": "Mango Leaf",
-                    "displayDescription": "A leaf from a mango tree.",
+                    "displayName": "{{i18n:Si.LC.name.Mango}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Mango}}",
                     "rarity": 2,
                     "seasons": [
                         "spring",
@@ -939,7 +939,7 @@
                     "range": 1,
                     "Price": 1,
                     "grounded": false,
-                    "displayedLocation": "Ginger Island",
+                    "displayedLocation": "{{i18n:Si.LC.loc.island}}",
                 },
 
                 // Crops
@@ -948,8 +948,8 @@
                 "Cauliflower": {
                     "spritePath": "Mods\\SiLeaves\\Cauliflower",
                     "itemTexture": "Mods\\SiLeaves\\CauliflowerLeaf",
-                    "displayName": "Cauliflower Leaf",
-                    "displayDescription": "A leaf from a cauliflower.",
+                    "displayName": "{{i18n:Si.LC.name.Cauliflower}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Cauliflower}}",
                     "rarity": 3,
                     "seasons": [
                         "spring",
@@ -972,8 +972,8 @@
                 "Melon": {
                     "spritePath": "Mods\\SiLeaves\\Melon",
                     "itemTexture": "Mods\\SiLeaves\\MelonLeaf",
-                    "displayName": "Melon Leaf",
-                    "displayDescription": "A leaf from a tigger melon.",
+                    "displayName": "{{i18n:Si.LC.name.Melon}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Melon}}",
                     "rarity": 3,
                     "seasons": [
                         "summer",
@@ -996,8 +996,8 @@
                 "Pumpkin": {
                     "spritePath": "Mods\\SiLeaves\\Pumpkin",
                     "itemTexture": "Mods\\SiLeaves\\PumpkinLeaf",
-                    "displayName": "Pumpkin Leaf",
-                    "displayDescription": "A leaf from a pumpkin.",
+                    "displayName": "{{i18n:Si.LC.name.Pumpkin}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Pumpkin}}",
                     "rarity": 3,
                     "seasons": [
                         "fall",
@@ -1020,8 +1020,8 @@
                 "Powdermelon": {
                     "spritePath": "Mods\\SiLeaves\\Powdermelon",
                     "itemTexture": "Mods\\SiLeaves\\PowdermelonLeaf",
-                    "displayName": "Powdermelon Leaf",
-                    "displayDescription": "A leaf from a powdermelon.",
+                    "displayName": "{{i18n:Si.LC.name.Powdermelon}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Powdermelon}}",
                     "rarity": 3,
                     "seasons": [
                         "winter",
@@ -1044,8 +1044,8 @@
                 "Strawberry": {
                     "spritePath": "Mods\\SiLeaves\\Strawberry",
                     "itemTexture": "Mods\\SiLeaves\\StrawberryLeaf",
-                    "displayName": "Strawberry Leaf",
-                    "displayDescription": "A leaf from a strawberry plant.",
+                    "displayName": "{{i18n:Si.LC.name.Strawberry}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Strawberry}}",
                     "rarity": 1,
                     "seasons": [
                         "spring",
@@ -1068,8 +1068,8 @@
                 "Blueberry": {
                     "spritePath": "Mods\\SiLeaves\\Blueberry",
                     "itemTexture": "Mods\\SiLeaves\\BlueberryLeaf",
-                    "displayName": "Blueberry Leaf",
-                    "displayDescription": "A leaf from a blueberry plant.",
+                    "displayName": "{{i18n:Si.LC.name.Blueberry}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Blueberry}}",
                     "rarity": 1,
                     "seasons": [
                         "summer",
@@ -1092,8 +1092,8 @@
                 "Cranberry": {
                     "spritePath": "Mods\\SiLeaves\\Cranberry",
                     "itemTexture": "Mods\\SiLeaves\\CranberryLeaf",
-                    "displayName": "Cranberry Leaf",
-                    "displayDescription": "A leaf from a cranberry plant.",
+                    "displayName": "{{i18n:Si.LC.name.Cranberry}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Cranberry}}",
                     "rarity": 1,
                     "seasons": [
                         "fall",
@@ -1116,8 +1116,8 @@
                 "Starfruit": {
                     "spritePath": "Mods\\SiLeaves\\Starfruit",
                     "itemTexture": "Mods\\SiLeaves\\StarfruitLeaf",
-                    "displayName": "Starfruit Leaf",
-                    "displayDescription": "A leaf from a starfruit plant.",
+                    "displayName": "{{i18n:Si.LC.name.Starfruit}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Starfruit}}",
                     "rarity": 1,
                     "seasons": [
                         "spring",
@@ -1140,7 +1140,7 @@
                     "range": 1,
                     "Price": 1,
                     "grounded": false,
-                    "displayedLocation": "Ginger Island",
+                    "displayedLocation": "{{i18n:Si.LC.loc.island}}",
                 },
 
                 // Other
@@ -1149,8 +1149,8 @@
                 "LilyPadSpring": {
                     "spritePath": "Mods\\SiLeaves\\LilyPadSpring",
                     "itemTexture": "Mods\\SiLeaves\\LilyPadSpringLeaf",
-                    "displayName": "Spring Lily Pad",
-                    "displayDescription": "A lily pad that floats on the water in spring.",
+                    "displayName": "{{i18n:Si.LC.name.LilyPadSpring}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.LilyPadSpring}}",
                     "rarity": 0,
                     "seasons": [
                         "spring",
@@ -1171,8 +1171,8 @@
                 "LilyPadSummer": {
                     "spritePath": "Mods\\SiLeaves\\LilyPadSummer",
                     "itemTexture": "Mods\\SiLeaves\\LilyPadSummerLeaf",
-                    "displayName": "Summer Lily Pad",
-                    "displayDescription": "A lily pad that floats on the water in summer.",
+                    "displayName": "{{i18n:Si.LC.name.LilyPadSummer}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.LilyPadSummer}}",
                     "rarity": 0,
                     "seasons": [
                         "summer",
@@ -1193,8 +1193,8 @@
                 "LilyPadFall": {
                     "spritePath": "Mods\\SiLeaves\\LilyPadFall",
                     "itemTexture": "Mods\\SiLeaves\\LilyPadFallLeaf",
-                    "displayName": "Fall Lily Pad",
-                    "displayDescription": "A lily pad that floats on the water in fall.",
+                    "displayName": "{{i18n:Si.LC.name.LilyPadFall}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.LilyPadFall}}",
                     "rarity": 0,
                     "seasons": [
                         "fall",
@@ -1217,8 +1217,8 @@
                 "SweetGem": {
                     "spritePath": "Mods\\SiLeaves\\SweetGem",
                     "itemTexture": "Mods\\SiLeaves\\SweetGemLeaf",
-                    "displayName": "Sweet Gem Berry Leaf",
-                    "displayDescription": "A leaf from a sweet gem berry plant.",
+                    "displayName": "{{i18n:Si.LC.name.SweetGem}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.SweetGem}}",
                     "rarity": 3,
                     "seasons": [
                         "spring",
@@ -1238,15 +1238,15 @@
                     "range": 1,
                     "Price": 1,
                     "grounded": false,
-                    "displayedLocation": "Secret Woods",
+                    "displayedLocation": "{{i18n:Si.LC.loc.woods}}",
                 },
 
                 // Tumbleweed
                 "Tumbleweed": {
                     "spritePath": "Mods\\SiLeaves\\Tumbleweed",
                     "itemTexture": "Mods\\SiLeaves\\TumbleweedLeaf",
-                    "displayName": "Tumbleweed",
-                    "displayDescription": "A tumbleweed you found rolling around in the desert.",
+                    "displayName": "{{i18n:Si.LC.name.Tumbleweed}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Tumbleweed}}",
                     "rarity": 2,
                     "seasons": [
                         "spring",
@@ -1272,8 +1272,8 @@
                 "Stardrop": {
                     "spritePath": "Mods\\SiLeaves\\Stardrop",
                     "itemTexture": "Mods\\SiLeaves\\StardropLeaf",
-                    "displayName": "Stardrop Leaf",
-                    "displayDescription": "This leaf carries a wonderful scent.",
+                    "displayName": "{{i18n:Si.LC.name.Stardrop}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Stardrop}}",
                     "rarity": 4,
                     "seasons": [
                         "spring",
