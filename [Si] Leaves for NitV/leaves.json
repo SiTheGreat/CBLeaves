@@ -1270,7 +1270,7 @@
                 // Mossy
                 "Mossy": {
                     "spritePath": "Mods\\SiLeaves\\Mossy",
-                    "itemTexture": "Mods\\SiLeaves\\MossytLeaf",
+                    "itemTexture": "Mods\\SiLeaves\\MossyLeaf",
                     "displayName": "{{i18n:Si.LC.name.Mossy}}",
                     "displayDescription": "{{i18n:Si.LC.desc.Mossy}}",
                     "rarity": 2,
@@ -1291,6 +1291,7 @@
                     "weatherCode": "2",
                     "range": 1,
                     "Price": 1,
+                    "GSQ": "!SEASON Winter",
                     "grounded": false,
                 },
 
