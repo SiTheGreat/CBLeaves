@@ -109,8 +109,12 @@
 	// Locations
 	"Si.LC.loc.island": "Ginger Island",
 	"Si.LC.loc.woods": "Secret Woods",
-	// Books
+	// Book Collecting books
 	"Si.LC.BC.name.LeafBook": "Trees of the Ferngill Republic",
 	"Si.LC.BC.desc.LeafBook": "This book is full of information about different kinds of trees and their leaves.",
 	"Si.LC.BC.excerpt.LeafBook": "^^Maples and Oaks can be found in equal measure atop the mountains that dot the coast of the Ferngill Republic. While they take on stunning hues in the fall season, both are outnumbered by the evergreen pines that weather the cold winters.",
+	// Crossover Leaves
+	// Tortilla Trees
+	"Si.LC.name.Tortilla": "Tortilla Leaf",
+	"Si.LC.desc.Tortilla": "It feels soft and warm in your hands.",
 }
