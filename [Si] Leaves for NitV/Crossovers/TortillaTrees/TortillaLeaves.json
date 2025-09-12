@@ -4,8 +4,13 @@
         // Load images
 		{
             "Action": "Load",
-            "Target": "Mods/SiLeaves/Tortilla, Mods/SiLeaves/TortillaLeaf",
-            "FromFile": "Crossovers/TortillaTrees/Tortilla.png, Crossovers/TortillaTrees/TortillaLeaf.png"
+            "Target": "Mods/SiLeaves/Tortilla",
+            "FromFile": "Crossovers/TortillaTrees/Tortilla.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/SiLeaves/TortillaLeaf",
+            "FromFile": "Crossovers/TortillaTrees/TortillaLeaf.png"
         },
 
         // Load catchables
@@ -39,7 +44,7 @@
                     "grounded": false,
                 },
             }
-        }
+        },
 
         // Load rewards
         {
