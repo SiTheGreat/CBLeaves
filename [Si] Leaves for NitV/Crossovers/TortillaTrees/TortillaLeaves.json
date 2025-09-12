@@ -41,5 +41,21 @@
             }
         }
 
+        // Load rewards
+        {
+		"Action": "EditData",
+		"Target": "Nature.NITV/Rewards",
+		"Entries": {
+			"{{ModId}}_TortillaReward": {
+				"ItemId": "(O)229",
+				"ItemCount": 5,
+				"TotalDonated": 0,
+				"creatureRequirements": [
+				"Tortilla",
+				]
+			},
+		}
+	},
+
 	]
 }
