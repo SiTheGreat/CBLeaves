@@ -9,6 +9,11 @@
 			"FromFile": "leaves.json",
 		},
 
+		{
+			"Action": "Include",
+			"FromFile": "rewards.json",
+		},
+
         // Crossover Content //////////////////////////////////////////////////////////
 
         // Book Collecting

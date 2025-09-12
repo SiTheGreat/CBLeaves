@@ -13,9 +13,9 @@
 
         {
             // Forage
-            // Salmonberry, Spiceberry, Blackberry, Holly
+            // Salmonberry, Spiceberry, Blackberry, Holly, Dandelion, Wild Plum, Crocus
             "Action": "Load",
-            "Target": "Mods/SiLeaves/Salmonberry, Mods/SiLeaves/SalmonberryLeaf, Mods/SiLeaves/Spiceberry, Mods/SiLeaves/SpiceberryLeaf, Mods/SiLeaves/Blackberry, Mods/SiLeaves/BlackberryLeaf, Mods/SiLeaves/Holly, Mods/SiLeaves/HollyLeaf",
+            "Target": "Mods/SiLeaves/Salmonberry, Mods/SiLeaves/SalmonberryLeaf, Mods/SiLeaves/Spiceberry, Mods/SiLeaves/SpiceberryLeaf, Mods/SiLeaves/Blackberry, Mods/SiLeaves/BlackberryLeaf, Mods/SiLeaves/Holly, Mods/SiLeaves/HollyLeaf, Mods/SiLeaves/Dandelion, Mods/SiLeaves/DandelionLeaf, Mods/SiLeaves/Plum, Mods/SiLeaves/PlumLeaf, Mods/SiLeaves/Crocus, Mods/SiLeaves/CrocusLeaf",
             "FromFile": "Assets/{{TargetWithoutPath}}.png"
         },
 
@@ -24,6 +24,14 @@
             // Apricot, Cherry, Orange, Peach, Apple, Pomegranate, Banana, Mango
             "Action": "Load",
             "Target": "Mods/SiLeaves/ApricotSpringSummer, Mods/SiLeaves/ApricotSpringSummerLeaf, Mods/SiLeaves/ApricotFall, Mods/SiLeaves/ApricotFallLeaf, Mods/SiLeaves/CherrySpring, Mods/SiLeaves/CherrySpringLeaf, Mods/SiLeaves/CherrySummer, Mods/SiLeaves/CherrySummerLeaf, Mods/SiLeaves/CherryFall, Mods/SiLeaves/CherryFallLeaf, Mods/SiLeaves/OrangeSpring, Mods/SiLeaves/OrangeSpringLeaf, Mods/SiLeaves/OrangeSummer, Mods/SiLeaves/OrangeSummerLeaf, Mods/SiLeaves/OrangeFall, Mods/SiLeaves/OrangeFallLeaf, Mods/SiLeaves/PeachSpring, Mods/SiLeaves/PeachSpringLeaf, Mods/SiLeaves/PeachSummer, Mods/SiLeaves/PeachSummerLeaf, Mods/SiLeaves/PeachFall, Mods/SiLeaves/PeachFallLeaf, Mods/SiLeaves/AppleSpringSummer, Mods/SiLeaves/AppleSpringSummerLeaf, Mods/SiLeaves/AppleFall, Mods/SiLeaves/AppleFallLeaf, Mods/SiLeaves/PomegranateSpring, Mods/SiLeaves/PomegranateSpringLeaf, Mods/SiLeaves/PomegranateSummer, Mods/SiLeaves/PomegranateSummerLeaf, Mods/SiLeaves/PomegranateFall, Mods/SiLeaves/PomegranateFallLeaf, Mods/SiLeaves/Banana, Mods/SiLeaves/BananaLeaf, Mods/SiLeaves/Mango, Mods/SiLeaves/MangoLeaf",
+            "FromFile": "Assets/{{TargetWithoutPath}}.png"
+        },
+
+        {
+            // Flowers
+            // Tulip, Summer Spangle, Poppy, Sunflower, Fairy Rose
+            "Action": "Load",
+            "Target": "Mods/SiLeaves/Tulip, Mods/SiLeaves/TulipLeaf, Mods/SiLeaves/Spangle, Mods/SiLeaves/SpangleLeaf, Mods/SiLeaves/Poppy, Mods/SiLeaves/PoppyLeaf, Mods/SiLeaves/Sunflower, Mods/SiLeaves/SunflowerLeaf, Mods/SiLeaves/FairyRose, Mods/SiLeaves/FairyRoseLeaf",
             "FromFile": "Assets/{{TargetWithoutPath}}.png"
         },
 
@@ -487,6 +495,7 @@
                     "grounded": false,
                 },
 
+                // Holly
                 "Holly": {
                     "spritePath": "Mods\\SiLeaves\\Holly",
                     "itemTexture": "Mods\\SiLeaves\\HollyLeaf",
@@ -504,6 +513,78 @@
                     "xDef": 32,
                     "yDef": 22,
                     "speed": 0.002,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                // Dandelion
+                "Dandelion": {
+                    "spritePath": "Mods\\SiLeaves\\Dandelion",
+                    "itemTexture": "Mods\\SiLeaves\\DandelionLeaf",
+                    "displayName": "{{i18n:Si.LC.name.Dandelion}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Dandelion}}",
+                    "rarity": 2,
+                    "seasons": [
+                        "spring",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 46,
+                    "yDef": 13,
+                    "speed": 0.005 ,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                // Plum
+                "Plum": {
+                    "spritePath": "Mods\\SiLeaves\\Plum",
+                    "itemTexture": "Mods\\SiLeaves\\PlumLeaf",
+                    "displayName": "{{i18n:Si.LC.name.Plum}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Plum}}",
+                    "rarity": 2,
+                    "seasons": [
+                        "fall",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 53,
+                    "yDef": 8,
+                    "speed": 0.005 ,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                // Crocus
+                "Crocus": {
+                    "spritePath": "Mods\\SiLeaves\\Crocus",
+                    "itemTexture": "Mods\\SiLeaves\\CrocusLeaf",
+                    "displayName": "{{i18n:Si.LC.name.Crocus}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Crocus}}",
+                    "rarity": 2,
+                    "seasons": [
+                        "winter",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 34,
+                    "yDef": 17,
+                    "speed": 0.005 ,
                     "scale": 1.5,
                     "weatherCode": "1",
                     "range": 1,
@@ -939,6 +1020,129 @@
                     "Price": 1,
                     "grounded": false,
                     "displayedLocation": "{{i18n:Si.LC.loc.island}}",
+                },
+
+                // Flowers
+
+                // Tulip
+                "Tulip": {
+                    "spritePath": "Mods\\SiLeaves\\Tulip",
+                    "itemTexture": "Mods\\SiLeaves\\TulipLeaf",
+                    "displayName": "{{i18n:Si.LC.name.Tulip}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Tulip}}",
+                    "rarity": 3,
+                    "seasons": [
+                        "spring",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 70,
+                    "yDef": 20,
+                    "speed": 0.01 ,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                // Spangle
+                "Spangle": {
+                    "spritePath": "Mods\\SiLeaves\\Spangle",
+                    "itemTexture": "Mods\\SiLeaves\\SpangleLeaf",
+                    "displayName": "{{i18n:Si.LC.name.Spangle}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Spangle}}",
+                    "rarity": 3,
+                    "seasons": [
+                        "summer",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 28,
+                    "yDef": 17,
+                    "speed": 0.01 ,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                // Poppy
+                "Poppy": {
+                    "spritePath": "Mods\\SiLeaves\\Poppy",
+                    "itemTexture": "Mods\\SiLeaves\\PoppyLeaf",
+                    "displayName": "{{i18n:Si.LC.name.Poppy}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Poppy}}",
+                    "rarity": 3,
+                    "seasons": [
+                        "summer",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 34,
+                    "yDef": 20,
+                    "speed": 0.01 ,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                // Sunflower
+                "Sunflower": {
+                    "spritePath": "Mods\\SiLeaves\\Sunflower",
+                    "itemTexture": "Mods\\SiLeaves\\SunflowerLeaf",
+                    "displayName": "{{i18n:Si.LC.name.Sunflower}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.Sunflower}}",
+                    "rarity": 3,
+                    "seasons": [
+                        "summer",
+                        "fall",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 45,
+                    "yDef": 9,
+                    "speed": 0.01 ,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
+                },
+
+                // FairyRose
+                "FairyRose": {
+                    "spritePath": "Mods\\SiLeaves\\FairyRose",
+                    "itemTexture": "Mods\\SiLeaves\\FairyRoseLeaf",
+                    "displayName": "{{i18n:Si.LC.name.FairyRose}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.FairyRose}}",
+                    "rarity": 3,
+                    "seasons": [
+                        "fall",
+                    ],
+                    "locations": [
+                        "0",
+                    ],
+                    "localSpawnCode": 0,
+                    "xDef": 46,
+                    "yDef": 20,
+                    "speed": 0.01 ,
+                    "scale": 1.5,
+                    "weatherCode": "1",
+                    "range": 1,
+                    "Price": 1,
+                    "grounded": false,
                 },
 
                 // Crops
