@@ -1482,7 +1482,6 @@
                         "spring",
                         "summer",
                         "fall",
-                        "winter",
                     ],
                     "locations": [
                         "0",
@@ -1495,7 +1494,6 @@
                     "weatherCode": "2",
                     "range": 1,
                     "Price": 1,
-                    "GSQ": "!SEASON Winter",
                     "grounded": false,
                 },
 
