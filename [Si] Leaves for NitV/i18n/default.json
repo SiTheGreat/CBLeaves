@@ -137,4 +137,6 @@
 	"Si.LC.name.WollemiPine": "Wollemi Pine Sprig",
 	"Si.LC.desc.WollemiPine": "This sprig has an ancient aura surrounding it.",
 	"Si.LC.loc.WollemiPine": "Stalac-Town",
+	// SVE
+	"Si.LC.loc.SVE": "Outdoors",
 }

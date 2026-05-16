@@ -5,12 +5,12 @@
 		{
             "Action": "Load",
             "Target": "Mods/SiLeaves/SVE",
-            "FromFile": "Crossovers/SVETrees/SVE.png"
+            "FromFile": "Crossovers/SVE/SVE.png"
         },
         {
             "Action": "Load",
             "Target": "Mods/SiLeaves/SVELeaf",
-            "FromFile": "Crossovers/SVETrees/SVELeaf.png"
+            "FromFile": "Crossovers/SVE/SVELeaf.png"
         },
 
         // Load catchables
@@ -19,49 +19,60 @@
             "Target": "Nature.NITV/Creatures",
             "Entries": {
                 "SVE": {
-                    "spritePath": "Mods\\SiLeaves\\SVE",
-                    "itemTexture": "Mods\\SiLeaves\\SVELeaf",
-                    "displayName": "{{i18n:Si.LC.name.SVE}}",
-                    "displayDescription": "{{i18n:Si.LC.desc.SVE}}",
+                    "spritePath": "Mods\\SiLeaves\\thing",
+                    "itemTexture": "Mods\\SiLeaves\\thingLeaf",
+                    "displayName": "{{i18n:Si.LC.name.SVE.thing}}",
+                    "displayDescription": "{{i18n:Si.LC.desc.SVE.thing}}",
                     "rarity": 0,
+                    "spriteIndex": 0,
+                    "xDef": 36,
+                    "yDef": 20,
                     "seasons": [
                         "spring",
                         "summer",
                         "fall",
                         "winter",
                     ],
-                    "locations": [
-                        "0",
+                    "locations": [ 
+                        "Custom_BlueMoonVineyard",
+                        "Custom_JunimoWoods",
+                        "Custom_ForestWest",
+                        "Custom_SVESummit",
+                        "Custom_AdventurerSummit",
+                        "Custom_Highlands",
+                        "Custom_EnchantedGrove",
+                        "Custom_FableReef",
+                        "Custom_SpriteSpring2",
+                        "Woods",
+                        "WitchSwamp",
                     ],
                     "localSpawnCode": 0,
-                    "xDef": 36,
-                    "yDef": 20,
-                    "speed": 0.003,
+                    "speed": 0.005,
                     "scale": 1.5,
                     "weatherCode": "1",
                     "range": 1,
                     "Price": 1,
                     "grounded": false,
-                    "displayedLocation": "Ginger Island",
+                    "displayedLocation": "{{i18n:Si.LC.loc.SVE}}",
                 },
             }
         },
 
         // Load rewards
-        {
-		"Action": "EditData",
-		"Target": "Nature.NITV/Rewards",
-		"Entries": {
-			"{{ModId}}_SVEReward": {
-				"ItemId": "(O)229",
-				"ItemCount": 5,
-				"TotalDonated": 0,
-				"creatureRequirements": [
-				"SVEleafname",
-				]
-			},
-		}
-	},
+        // {
+        //     "Action": "EditData",
+        //     "Target": "Nature.NITV/Rewards",
+        //     "Entries": {
+        //         "{{ModId}}_SVEReward": {
+        //             "ItemId": "(O)229",
+        //             "ItemCount": 5,
+        //             "TotalDonated": 0,
+        //             "creatureRequirements": [
+        //             "SVEleafname",
+        //             ]
+        //         },
+        //     }
+	    // },
 
 	]
 }

@@ -119,6 +119,24 @@
 		},
 	},
 
+	// Achievement Counter
+
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"{{ModId}}_AchievementCounter": {
+				"Id": "{{ModId}}_AchievementCounter",
+				"MarkActionApplied": true,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_HAS_MAIL ALL Si.BC_UnlockedBooks",
+				"Actions": [
+					"IncrementStat bc_achievement 1",
+				]
+			},
+		},
+	},
+
 	// NITV Rewards //////////////////////////////////////////////////////////
 
 	{

@@ -361,7 +361,7 @@
                     "range": 1,
                     "Price": 1,
                     "grounded": false,
-                    "displayedLocation": "Ginger Island",
+                    "displayedLocation": "{{i18n:Si.LC.loc.island}}",
                 },
 
                 // DesertPalm
