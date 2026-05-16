@@ -3,19 +3,13 @@
 
 	"ConfigSchema":{
 
-		"SVELeaves": {
+		"CrossoverLeaves": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "When disabled, leaves added when the Stardew Valley Expanded mod is installed will not appear or be counted for collection."
+			"Description": "When disabled, leaves added for crossovers will not appear or be counted for collection when their respective mods are installed."
 		},
 
-		"TortillaLeaves": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "When disabled, leaves added when the Tortilla Trees mod is installed will not appear or be counted for collection."
-		},
-
-		"Books": {
+		"BookCollectingBooks": {
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "When disabled, books added when the Book Collecting mod is installed will not appear or be counted for collection. This includes crossover books."
@@ -45,8 +39,8 @@
 			"FromFile": "Crossovers/BC/books.json",
             "When": {
 			    "HasMod: |contains=Si.BC": true,
-				"HasWalletItem |contains=MagnifyingGlass": true,
-				"Books": true
+				"HasFlag: |contains={{ModId}}_UnlockedBooks": true,
+				"BookCollectingBooks": true
 		    },
 		},
 
@@ -56,7 +50,7 @@
 			"FromFile": "Crossovers/SVE/SVELeaves.json",
             "When": {
 			    "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-				"SVELeaves": true
+				"CrossoverLeaves": true
 		    },
 		},
 
@@ -66,7 +60,17 @@
 			"FromFile": "Crossovers/TortillaTrees/TortillaLeaves.json",
             "When": {
 			    "HasMod: |contains=Si.TortillaTree": true,
-				"TortillaLeaves": true
+				"CrossoverLeaves": true
+		    },
+		},
+
+		// Stalac Town
+		{
+			"Action": "Include",
+			"FromFile": "Crossovers/StalacTown/StalacTownLeaves.json",
+            "When": {
+			    "HasMod: |contains=Si.ST": true,
+				"CrossoverLeaves": true
 		    },
 		},
 

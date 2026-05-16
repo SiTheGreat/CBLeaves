@@ -133,4 +133,8 @@
 	// Tortilla Trees
 	"Si.LC.name.Tortilla": "Tortilla Leaf",
 	"Si.LC.desc.Tortilla": "It feels soft and warm in your hands.",
+	// Stalac-Town
+	"Si.LC.name.WollemiPine": "Wollemi Pine Sprig",
+	"Si.LC.desc.WollemiPine": "This sprig has an ancient aura surrounding it.",
+	"Si.LC.loc.WollemiPine": "Stalac-Town",
 }
