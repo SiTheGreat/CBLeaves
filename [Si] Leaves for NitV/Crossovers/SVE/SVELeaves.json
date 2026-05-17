@@ -12,55 +12,112 @@
             "Target": "Mods/SiLeaves/SVE/MoneySpring, Mods/SiLeaves/SVE/MoneySummer, Mods/SiLeaves/SVE/MoneyFall, Mods/SiLeaves/SVE/MoneyWinter, Mods/SiLeaves/SVE/PearSpring, Mods/SiLeaves/SVE/PearSummer, Mods/SiLeaves/SVE/PearFall, Mods/SiLeaves/SVE/NectarineSpring, Mods/SiLeaves/SVE/NectarineSummer, Mods/SiLeaves/SVE/NectarineFall, Mods/SiLeaves/SVE/PersimmonSpring, Mods/SiLeaves/SVE/PersimmonSummer, Mods/SiLeaves/SVE/PersimmonFall, Mods/SiLeaves/SVE/FirSpring, Mods/SiLeaves/SVE/FirSummer, Mods/SiLeaves/SVE/FirFall, Mods/SiLeaves/SVE/FirWinter, Mods/SiLeaves/SVE/SVEBirchSpring, Mods/SiLeaves/SVE/SVEBirchSummer, Mods/SiLeaves/SVE/SVEBirchFall, Mods/SiLeaves/SVE/SVESwamp, Mods/SiLeaves/SVE/Primrose, Mods/SiLeaves/SVE/Salal, Mods/SiLeaves/SVE/WinterStar, Mods/SiLeaves/SVE/SVEClover, Mods/SiLeaves/SVE/Slime, Mods/SiLeaves/SVE/Thistle, Mods/SiLeaves/SVE/Joja, Mods/SiLeaves/SVE/Goldenrod, Mods/SiLeaves/SVE/Bear, Mods/SiLeaves/SVE/Monster, Mods/SiLeaves/SVE/Dewdrop",
             "FromFile": "Crossovers/SVE/{{TargetWithoutPath}}.png"
         },
-
-        // FlashShifter.StardewValleyExpandedCP_Armor_Elixir FlashShifter.StardewValleyExpandedCP_Haste_Elixir FlashShifter.StardewValleyExpandedCP_Hero_Elixir FlashShifter.StardewValleyExpandedCP_Marsh_Tonic FlashShifter.StardewValleyExpandedCP_Bombardier_Elixir
-        // Load rewards
-        // {
-        //     "Action": "EditData",
-        //     "Target": "Nature.NITV/Rewards",
-        //     "Entries": {
-        //         "{{ModId}}_SVESpringReward": {
-        //             "ItemId": "(O)229",
-        //             "ItemCount": 5,
-        //             "TotalDonated": 0,
-        //             "creatureRequirements": [
-        //             "SVEleafname",
-        //             ]
-        //         },
-        //         "{{ModId}}_SVESummerReward": {
-        //             "ItemId": "(O)229",
-        //             "ItemCount": 5,
-        //             "TotalDonated": 0,
-        //             "creatureRequirements": [
-        //             "SVEleafname",
-        //             ]
-        //         },
-        //         "{{ModId}}_SVEFallReward": {
-        //             "ItemId": "(O)229",
-        //             "ItemCount": 5,
-        //             "TotalDonated": 0,
-        //             "creatureRequirements": [
-        //             "SVEleafname",
-        //             ]
-        //         },
-        //         "{{ModId}}_SVEWinterReward": {
-        //             "ItemId": "(O)229",
-        //             "ItemCount": 5,
-        //             "TotalDonated": 0,
-        //             "creatureRequirements": [
-        //             "SVEleafname",
-        //             ]
-        //         },
-        //         "{{ModId}}_SVEAllReward": {
-        //             "ItemId": "(O)229",
-        //             "ItemCount": 5,
-        //             "TotalDonated": 0,
-        //             "creatureRequirements": [
-        //             "SVEleafname",
-        //             ]
-        //         },
-        //     }
-	    // },
+ 
+        // Leaf rewards
+        {
+            "Action": "EditData",
+            "Target": "Nature.NITV/Rewards",
+            "Entries": {
+                "{{ModId}}_SVESpringReward": {
+                    "ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Armor_Elixir",
+                    "ItemCount": 2,
+                    "TotalDonated": 0,
+                    "creatureRequirements": [
+                    "MoneySpring",
+                    "PearSpring",
+                    "NectarineSpring",
+                    "PersimmonSpring",
+                    "FirSpring",
+                    "SVEBirchSpring",
+                    "Primrose",
+                    "Salal",
+                    "SVEClover",
+                    "Slime",
+                    ]
+                },
+                "{{ModId}}_SVESummerReward": {
+                    "ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Haste_Elixir",
+                    "ItemCount": 2,
+                    "TotalDonated": 0,
+                    "creatureRequirements": [
+                    "MoneySummer",
+                    "PearSummer",
+                    "NectarineSummer",
+                    "PersimmonSummer",
+                    "FirSummer",
+                    "SVEBirchSummer",
+                    "Goldenrod",
+                    "Salal",
+                    "SVEClover",
+                    "Monster",
+                    ]
+                },
+                "{{ModId}}_SVEFallReward": {
+                    "ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Hero_Elixir",
+                    "ItemCount": 2,
+                    "TotalDonated": 0,
+                    "creatureRequirements": [
+                    "MoneyFall",
+                    "PearFall",
+                    "NectarineFall",
+                    "PersimmonFall",
+                    "FirFall",
+                    "SVEBirchFall",
+                    "Thistle",
+                    ]
+                },
+                "{{ModId}}_SVEWinterReward": {
+                    "ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Bombardier_Elixir",
+                    "ItemCount": 2,
+                    "TotalDonated": 0,
+                    "creatureRequirements": [
+                    "MoneyWinter",
+                    "FirWinter",
+                    "WinterStar",
+                    "Bear",
+                    ]
+                },
+                "{{ModId}}_SVEAllReward": {
+                    "ItemId": "(O)FlashShifter.StardewValleyExpandedCP_Marsh_Tonic",
+                    "ItemCount": 2,
+                    "TotalDonated": 0,
+                    "creatureRequirements": [
+                    "MoneySpring",
+                    "PearSpring",
+                    "NectarineSpring",
+                    "PersimmonSpring",
+                    "FirSpring",
+                    "SVEBirchSpring",
+                    "Primrose",
+                    "Salal",
+                    "SVEClover",
+                    "Slime",
+                    "MoneySummer",
+                    "PearSummer",
+                    "NectarineSummer",
+                    "PersimmonSummer",
+                    "FirSummer",
+                    "SVEBirchSummer",
+                    "Goldenrod",
+                    "Monster",
+                    "MoneyFall",
+                    "PearFall",
+                    "NectarineFall",
+                    "PersimmonFall",
+                    "FirFall",
+                    "SVEBirchFall",
+                    "Thistle",
+                    "MoneyWinter",
+                    "FirWinter",
+                    "WinterStar",
+                    "Bear",
+                    "SVESwamp",
+                    "Joja",
+                    "Dewdrop",
+                    ]
+                },
+            }
+	    },
 
         // Load catchables
         {
