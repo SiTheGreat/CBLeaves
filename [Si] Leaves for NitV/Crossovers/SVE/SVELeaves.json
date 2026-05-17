@@ -4,14 +4,64 @@
         // Load images
 		{
             "Action": "Load",
-            "Target": "Mods/SiLeaves/SVE",
-            "FromFile": "Crossovers/SVE/SVE.png"
+            "Target": "Mods/SiLeaves/SVE/SVELeafItems",
+            "FromFile": "Crossovers/SVE/SVELeafItems.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/SiLeaves/SVELeaf",
-            "FromFile": "Crossovers/SVE/SVELeaf.png"
+            "Target": "Mods/SiLeaves/SVE/MoneySpring, Mods/SiLeaves/SVE/MoneySummer, Mods/SiLeaves/SVE/MoneyFall, Mods/SiLeaves/SVE/MoneyWinter, Mods/SiLeaves/SVE/PearSpring, Mods/SiLeaves/SVE/PearSummer, Mods/SiLeaves/SVE/PearFall, Mods/SiLeaves/SVE/NectarineSpring, Mods/SiLeaves/SVE/NectarineSummer, Mods/SiLeaves/SVE/NectarineFall, Mods/SiLeaves/SVE/PersimmonSpring, Mods/SiLeaves/SVE/PersimmonSummer, Mods/SiLeaves/SVE/PersimmonFall, Mods/SiLeaves/SVE/FirSpring, Mods/SiLeaves/SVE/FirSummer, Mods/SiLeaves/SVE/FirFall, Mods/SiLeaves/SVE/FirWinter, Mods/SiLeaves/SVE/SVEBirchSpring, Mods/SiLeaves/SVE/SVEBirchSummer, Mods/SiLeaves/SVE/SVEBirchFall, Mods/SiLeaves/SVE/SVESwamp, Mods/SiLeaves/SVE/Primrose, Mods/SiLeaves/SVE/Salal, Mods/SiLeaves/SVE/WinterStar, Mods/SiLeaves/SVE/SVEClover, Mods/SiLeaves/SVE/Slime, Mods/SiLeaves/SVE/Thistle, Mods/SiLeaves/SVE/Joja, Mods/SiLeaves/SVE/Goldenrod, Mods/SiLeaves/SVE/Bear, Mods/SiLeaves/SVE/Monster, Mods/SiLeaves/SVE/Dewdrop",
+            "FromFile": "Crossovers/SVE/{{TargetWithoutPath}}.png"
         },
+
+        // Load rewards
+        // {
+        //     "Action": "EditData",
+        //     "Target": "Nature.NITV/Rewards",
+        //     "Entries": {
+        //         "{{ModId}}_SVESpringReward": {
+        //             "ItemId": "(O)229",
+        //             "ItemCount": 5,
+        //             "TotalDonated": 0,
+        //             "creatureRequirements": [
+        //             "SVEleafname",
+        //             ]
+        //         },
+        //         "{{ModId}}_SVESummerReward": {
+        //             "ItemId": "(O)229",
+        //             "ItemCount": 5,
+        //             "TotalDonated": 0,
+        //             "creatureRequirements": [
+        //             "SVEleafname",
+        //             ]
+        //         },
+        //         "{{ModId}}_SVEFallReward": {
+        //             "ItemId": "(O)229",
+        //             "ItemCount": 5,
+        //             "TotalDonated": 0,
+        //             "creatureRequirements": [
+        //             "SVEleafname",
+        //             ]
+        //         },
+        //         "{{ModId}}_SVEWinterReward": {
+        //             "ItemId": "(O)229",
+        //             "ItemCount": 5,
+        //             "TotalDonated": 0,
+        //             "creatureRequirements": [
+        //             "SVEleafname",
+        //             ]
+        //         },
+        //         "{{ModId}}_SVEAllReward": {
+        //             "ItemId": "(O)229",
+        //             "ItemCount": 5,
+        //             "TotalDonated": 0,
+        //             "creatureRequirements": [
+        //             "SVEleafname",
+        //             ]
+        //         },
+        //     }
+	    // },
+
+        // monster fruit leaf highlands summer, slime berry leaf highlands spring, salal berry leaf spring/summer junimo woods, joja berry spring/summer/fall forest west, bearberry forest west winter, dewdrop grove all year, primrose spring summit, clover forest west spring/summer, goldenrod summit summer, swamp flower forbidden maze witch swamp all, thistle summit fall, winterstar summit winter, money tree highlands, persimmon adv summit, pear spritespring, nectarine blue moon vineyard
 
         // Load catchables
         {
@@ -19,8 +69,8 @@
             "Target": "Nature.NITV/Creatures",
             "Entries": {
                 "SVE": {
-                    "spritePath": "Mods\\SiLeaves\\thing",
-                    "itemTexture": "Mods\\SiLeaves\\thingLeaf",
+                    "spritePath": "Mods\\SiLeaves\\SVE\\thing",
+                    "itemTexture": "Mods\\SiLeaves\\SVE\\SVELeafItems",
                     "displayName": "{{i18n:Si.LC.name.SVE.thing}}",
                     "displayDescription": "{{i18n:Si.LC.desc.SVE.thing}}",
                     "rarity": 0,
@@ -41,9 +91,7 @@
                         "Custom_AdventurerSummit",
                         "Custom_Highlands",
                         "Custom_EnchantedGrove",
-                        "Custom_FableReef",
                         "Custom_SpriteSpring2",
-                        "Woods",
                         "WitchSwamp",
                     ],
                     "localSpawnCode": 0,
@@ -57,22 +105,6 @@
                 },
             }
         },
-
-        // Load rewards
-        // {
-        //     "Action": "EditData",
-        //     "Target": "Nature.NITV/Rewards",
-        //     "Entries": {
-        //         "{{ModId}}_SVEReward": {
-        //             "ItemId": "(O)229",
-        //             "ItemCount": 5,
-        //             "TotalDonated": 0,
-        //             "creatureRequirements": [
-        //             "SVEleafname",
-        //             ]
-        //         },
-        //     }
-	    // },
 
 	]
 }
