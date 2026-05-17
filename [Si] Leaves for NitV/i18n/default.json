@@ -129,10 +129,13 @@
 	"Si.LC.BC.name.LeafBook": "Trees of the Ferngill Republic",
 	"Si.LC.BC.desc.LeafBook": "This book is full of information about different kinds of trees and their leaves.",
 	"Si.LC.BC.excerpt.LeafBook": "^^Maples and Oaks can be found in equal measure atop the mountains that dot the coast of the Ferngill Republic. While they take on stunning hues in the fall season, both are outnumbered by the evergreen pines that weather the cold winters.",
-	// Crossover Leaves
 	// Tortilla Trees
 	"Si.LC.name.Tortilla": "Tortilla Leaf",
 	"Si.LC.desc.Tortilla": "It feels soft and warm in your hands.",
+	// Everything below this line is new in 3.1.0
+	// Hat
+	"Si.LC.name.GrassHat": "Grass Hat",
+	"Si.LC.desc.GrassHat": "A hat made from long blades of grass woven together.",
 	// Stalac-Town
 	"Si.LC.name.WollemiPine": "Wollemi Pine Sprig",
 	"Si.LC.desc.WollemiPine": "This sprig has an ancient aura surrounding it.",
