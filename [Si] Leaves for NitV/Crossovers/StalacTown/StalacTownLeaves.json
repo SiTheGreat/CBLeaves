@@ -4,13 +4,13 @@
         // Load images
 		{
             "Action": "Load",
-            "Target": "Mods/SiLeaves/WollemiPine",
-            "FromFile": "Crossovers/StalacTownLeaves/WollemiPine.png"
+            "Target": "Mods/SiLeaves/StalacTown/WollemiPine",
+            "FromFile": "Crossovers/StalacTown/WollemiPine.png"
         },
         {
             "Action": "Load",
-            "Target": "Mods/SiLeaves/WollemiPineSprig",
-            "FromFile": "Crossovers/StalacTownLeaves/WollemiPineSprig.png"
+            "Target": "Mods/SiLeaves/StalacTown/WollemiPineSprig",
+            "FromFile": "Crossovers/StalacTown/WollemiPineSprig.png"
         },
 
         // Load catchables
@@ -19,8 +19,8 @@
             "Target": "Nature.NITV/Creatures",
             "Entries": {
                 "Tortilla": {
-                    "spritePath": "Mods\\SiLeaves\\WollemiPine",
-                    "itemTexture": "Mods\\SiLeaves\\WollemiPineSprig",
+                    "spritePath": "Mods\\SiLeaves\\StalacTown\\WollemiPine",
+                    "itemTexture": "Mods\\SiLeaves\\StalacTown\\WollemiPineSprig",
                     "displayName": "{{i18n:Si.LC.name.WollemiPine}}",
                     "displayDescription": "{{i18n:Si.LC.desc.WollemiPine}}",
                     "rarity": 4,

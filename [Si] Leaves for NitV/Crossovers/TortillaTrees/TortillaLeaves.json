@@ -52,8 +52,8 @@
 		"Target": "Nature.NITV/Rewards",
 		"Entries": {
 			"{{ModId}}_TortillaReward": {
-				"ItemId": "(O)229",
-				"ItemCount": 5,
+				"ItemId": "(H)3",
+				"ItemCount": 1,
 				"TotalDonated": 0,
 				"creatureRequirements": [
 				"Tortilla",
