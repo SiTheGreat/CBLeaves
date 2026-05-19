@@ -29,10 +29,10 @@
                     "PersimmonSpring",
                     "FirSpring",
                     "SVEBirchSpring",
-                    "Primrose",
-                    "Salal",
+                    "SVEPrimroseLeaf",
+                    "SVESalalLeaf",
                     "SVEClover",
-                    "Slime",
+                    "SVESlimeLeaf",
                     ]
                 },
                 "{{ModId}}_SVESummerReward": {
@@ -46,10 +46,10 @@
                     "PersimmonSummer",
                     "FirSummer",
                     "SVEBirchSummer",
-                    "Goldenrod",
-                    "Salal",
+                    "SVEGoldenrodLeaf",
+                    "SVESalalLeaf",
                     "SVEClover",
-                    "Monster",
+                    "SVEMonsterLeaf",
                     ]
                 },
                 "{{ModId}}_SVEFallReward": {
@@ -63,7 +63,7 @@
                     "PersimmonFall",
                     "FirFall",
                     "SVEBirchFall",
-                    "Thistle",
+                    "SVEThistleLeaf",
                     ]
                 },
                 "{{ModId}}_SVEWinterReward": {
@@ -73,8 +73,8 @@
                     "creatureRequirements": [
                     "MoneyWinter",
                     "FirWinter",
-                    "WinterStar",
-                    "Bear",
+                    "SVEWinterStarLeaf",
+                    "SVEBearberryLeaf",
                     ]
                 },
                 "{{ModId}}_SVEAllReward": {
@@ -88,32 +88,32 @@
                     "PersimmonSpring",
                     "FirSpring",
                     "SVEBirchSpring",
-                    "Primrose",
-                    "Salal",
+                    "SVEPrimroseLeaf",
+                    "SVESalalLeaf",
                     "SVEClover",
-                    "Slime",
+                    "SVESlimeLeaf",
                     "MoneySummer",
                     "PearSummer",
                     "NectarineSummer",
                     "PersimmonSummer",
                     "FirSummer",
                     "SVEBirchSummer",
-                    "Goldenrod",
-                    "Monster",
+                    "SVEGoldenrodLeaf",
+                    "SVEMonsterLeaf",
                     "MoneyFall",
                     "PearFall",
                     "NectarineFall",
                     "PersimmonFall",
                     "FirFall",
                     "SVEBirchFall",
-                    "Thistle",
+                    "SVEThistleLeaf",
                     "MoneyWinter",
                     "FirWinter",
-                    "WinterStar",
-                    "Bear",
+                    "SVEWinterStarLeaf",
+                    "SVEBearberryLeaf",
                     "SVESwamp",
-                    "Joja",
-                    "Dewdrop",
+                    "SVEJojaLeaf",
+                    "SVEDewdropLeaf",
                     ]
                 },
             }
@@ -701,7 +701,7 @@
                 },
 
                 // Primrose
-                "Primrose": {
+                "SVEPrimroseLeaf": {
                     "spritePath": "Mods\\SiLeaves\\SVE\\Primrose",
                     "itemTexture": "Mods\\SiLeaves\\SVE\\SVELeafItems",
                     "displayName": "{{i18n:Si.LC.name.SVE.Primrose}}",
@@ -728,7 +728,7 @@
                 },
 
                 // Salal
-                "Salal": {
+                "SVESalalLeaf": {
                     "spritePath": "Mods\\SiLeaves\\SVE\\Salal",
                     "itemTexture": "Mods\\SiLeaves\\SVE\\SVELeafItems",
                     "displayName": "{{i18n:Si.LC.name.SVE.Salal}}",
@@ -755,7 +755,7 @@
                 },
 
                 // WinterStar
-                "WinterStar": {
+                "SVEWinterStarLeaf": {
                     "spritePath": "Mods\\SiLeaves\\SVE\\WinterStar",
                     "itemTexture": "Mods\\SiLeaves\\SVE\\SVELeafItems",
                     "displayName": "{{i18n:Si.LC.name.SVE.WinterStar}}",
@@ -809,7 +809,7 @@
                 },
 
                 // Slime
-                "Slime": {
+                "SVESlimeLeaf": {
                     "spritePath": "Mods\\SiLeaves\\SVE\\Slime",
                     "itemTexture": "Mods\\SiLeaves\\SVE\\SVELeafItems",
                     "displayName": "{{i18n:Si.LC.name.SVE.Slime}}",
@@ -835,7 +835,7 @@
                 },
 
                 // Thistle
-                "Thistle": {
+                "SVEThistleLeaf": {
                     "spritePath": "Mods\\SiLeaves\\SVE\\Thistle",
                     "itemTexture": "Mods\\SiLeaves\\SVE\\SVELeafItems",
                     "displayName": "{{i18n:Si.LC.name.SVE.Thistle}}",
@@ -862,7 +862,7 @@
                 },
 
                 // Joja
-                "Joja": {
+                "SVEJojaLeaf": {
                     "spritePath": "Mods\\SiLeaves\\SVE\\Joja",
                     "itemTexture": "Mods\\SiLeaves\\SVE\\SVELeafItems",
                     "displayName": "{{i18n:Si.LC.name.SVE.Joja}}",
@@ -890,7 +890,7 @@
                 },
 
                 // Goldenrod
-                "Goldenrod": {
+                "SVEGoldenrodLeaf": {
                     "spritePath": "Mods\\SiLeaves\\SVE\\Goldenrod",
                     "itemTexture": "Mods\\SiLeaves\\SVE\\SVELeafItems",
                     "displayName": "{{i18n:Si.LC.name.SVE.Goldenrod}}",
@@ -917,7 +917,7 @@
                 },
 
                 // Bear
-                "Bear": {
+                "SVEBearberryLeaf": {
                     "spritePath": "Mods\\SiLeaves\\SVE\\Bear",
                     "itemTexture": "Mods\\SiLeaves\\SVE\\SVELeafItems",
                     "displayName": "{{i18n:Si.LC.name.SVE.Bear}}",
@@ -943,7 +943,7 @@
                 },
 
                 // Monster
-                "Monster": {
+                "SVEMonsterLeaf": {
                     "spritePath": "Mods\\SiLeaves\\SVE\\Monster",
                     "itemTexture": "Mods\\SiLeaves\\SVE\\SVELeafItems",
                     "displayName": "{{i18n:Si.LC.name.SVE.Monster}}",
@@ -969,7 +969,7 @@
                 },
 
                 // Dewdrop
-                "Dewdrop": {
+                "SVEDewdropLeaf": {
                     "spritePath": "Mods\\SiLeaves\\SVE\\Dewdrop",
                     "itemTexture": "Mods\\SiLeaves\\SVE\\SVELeafItems",
                     "displayName": "{{i18n:Si.LC.name.SVE.Dewdrop}}",
