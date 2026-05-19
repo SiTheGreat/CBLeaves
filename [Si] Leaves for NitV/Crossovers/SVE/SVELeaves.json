@@ -693,11 +693,11 @@
                     "localSpawnCode": 3,
                     "speed": 0.005,
                     "scale": 1.5,
-                    "weatherCode": "1",
+                    "weatherCode": "0",
                     "range": 1,
                     "Price": 1,
-                    "grounded": false,
-                    "displayedLocation": "{{i18n:Si.LC.loc.SVE}}",
+                    "grounded": true,
+                    "displayedLocation": "{{i18n:Si.LC.loc.SVE.swamp}}",
                 },
 
                 // Primrose
@@ -743,6 +743,7 @@
                     ],
                     "locations": [ 
                         "Custom_JunimoWoods",
+                        "Custom_ForestWest",
                     ],
                     "localSpawnCode": 0,
                     "speed": 0.005,

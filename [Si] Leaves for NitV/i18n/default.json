@@ -142,6 +142,7 @@
 	"Si.LC.loc.WollemiPine": "Stalac-Town",
 	// SVE
 	"Si.LC.loc.SVE": "Outdoors",
+	"Si.LC.loc.SVE.swamp": "Swamp",
 	"Si.LC.name.SVE.MoneySpring": "Spring Money Tree Leaf",
 	"Si.LC.desc.SVE.MoneySpring": "A leaf from a money tree in the spring.",
 	"Si.LC.name.SVE.MoneySummer": "Summer Money Tree Leaf",
